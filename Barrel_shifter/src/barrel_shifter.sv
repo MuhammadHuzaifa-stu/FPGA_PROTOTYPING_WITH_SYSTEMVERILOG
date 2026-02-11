@@ -48,7 +48,7 @@ module barrel_shifter #(
     begin : output_reversal_blk
         // Reverse the output for left shift
         for (int i = 0; i < WIDTH; i++) 
-        begin : 
+        begin
             a_out_rev[i] = stage[SHAMT_WIDTH][WIDTH - 1 - i];
         end        
     end

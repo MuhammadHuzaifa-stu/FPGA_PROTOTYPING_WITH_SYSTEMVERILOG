@@ -30,7 +30,7 @@ all: compile simulate gui_install
 
 compile:
 	@echo "Compiling & Elaborating with VCS..."
-	@vcs -full64 -nc -sverilog -assert svaext -f ./flist.rtl -top $(TESTBENCH) $(VCS_DEFINES) -debug_access+all -kdb -o simv | tee -a $(LOGFILE)
+	@vcs -full64 -nc -sverilog -assert svaext -f ./flist.rtl -top $(TESTBENCH) $(VCS_DEFINES) -debug_access+all -kdb -timescale=1ns/1ps -o simv | tee -a $(LOGFILE)
 
 simulate: simv
 	@echo "Running simulation..."
