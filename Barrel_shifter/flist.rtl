@@ -1,0 +1,2 @@
+./src/barrel_shifter.sv
+./src/tb_barrel_shifter.sv
