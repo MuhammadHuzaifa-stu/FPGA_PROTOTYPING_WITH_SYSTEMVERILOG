@@ -13,13 +13,14 @@ module barrel_shifter #(
     logic [WIDTH-1:0] a_in_rev;
     logic [WIDTH-1:0] a_out_rev;
 
-    generate
+    always_comb 
+    begin : input_reversal_blk
         // Reverse the input for left shift
-        for (genvar i = 0; i < WIDTH; i++) 
-        begin : input_reversal_blk
-            assign a_in_rev[i] = a_in[WIDTH - 1 - i];
-        end
-    endgenerate
+        for (int i = 0; i < WIDTH; i++) 
+        begin 
+            a_in_rev[i] = a_in[WIDTH - 1 - i];
+        end    
+    end
     
     always_comb 
     begin : input_sel_blk
@@ -43,14 +44,14 @@ module barrel_shifter #(
         end
     endgenerate
 
-    generate
+    always_comb 
+    begin : output_reversal_blk
         // Reverse the output for left shift
-        for (genvar i = 0; i < WIDTH; i++) 
-        begin : output_reversal_blk
-            assign a_out_rev[i] = stage[SHAMT_WIDTH][WIDTH - 1 - i];
-        end
-    
-    endgenerate
+        for (int i = 0; i < WIDTH; i++) 
+        begin : 
+            a_out_rev[i] = stage[SHAMT_WIDTH][WIDTH - 1 - i];
+        end        
+    end
     
     always_comb 
     begin : output_sel_blk
