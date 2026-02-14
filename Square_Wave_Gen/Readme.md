@@ -1,0 +1,1 @@
+In order to burn it to *FPGA*, either use `ILA` or `LED`. In case you use `LED`, make sure the *square_wave_out* frequency is set to a lower frequency. This can be achieved by increasing the `OFFSET` in *square_wave* but it should be a multiple of `2^n`, otherwise vcs/vivado will infer multiplier blocks for `(n x OFFSET) or (m x OFFSET)`
