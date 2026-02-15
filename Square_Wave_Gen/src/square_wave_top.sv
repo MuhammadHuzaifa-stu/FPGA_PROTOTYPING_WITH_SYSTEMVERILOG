@@ -7,8 +7,7 @@ module square_wave_top  #(
 
     input  logic             m_en,
     input  logic             n_en,
-    input  logic [WIDTH-1:0] m, // logic 1 interval
-    input  logic [WIDTH-1:0] n, // logic 0 interval
+    input  logic [WIDTH-1:0] m_n, // logic 1_0 interval
     
     input  logic             gen,
 
@@ -53,11 +52,11 @@ module square_wave_top  #(
 
             if (m_en)
             begin
-                m_reg <= m;
+                m_reg <= m_n;
             end
             if (n_en)
             begin
-                n_reg <= n;
+                n_reg <= m_n;
             end
         end    
     end

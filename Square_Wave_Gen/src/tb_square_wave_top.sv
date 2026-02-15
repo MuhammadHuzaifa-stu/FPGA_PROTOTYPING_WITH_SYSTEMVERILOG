@@ -9,8 +9,7 @@ module tb_square_wave_top ();
     logic             sys_rstn;
     logic             m_en; 
     logic             n_en;
-    logic [WIDTH-1:0] m; // logic 1 interval
-    logic [WIDTH-1:0] n; // logic 0 interval
+    logic [WIDTH-1:0] m_n; // logic 1_0 interval
     logic             gen;
     logic             square_wave_out;
 
@@ -20,8 +19,7 @@ module tb_square_wave_top ();
         .sys_rstn       ( sys_rstn        ),
         .m_en           ( m_en            ),
         .n_en           ( n_en            ),
-        .m              ( m               ),
-        .n              ( n               ),
+        .m_n            ( m_n             ),
         .gen            ( gen             ),
         .square_wave_out( square_wave_out )
     );
@@ -45,17 +43,16 @@ module tb_square_wave_top ();
         sys_rstn = 0;
         m_en     = 0;
         n_en     = 0;
-        m        = 0;
-        n        = 0;
+        m_n      = 0;
         #1;
         sys_rstn = 1;
         repeat(4) #5;
         m_en = 1;
-        m    = 2;
+        m_n  = 2;
         #5;
         m_en = 0;
         n_en = 1;
-        n    = 2;
+        m_n  = 2;
         #5;
         n_en = 0;
         gen  = 1;
