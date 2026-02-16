@@ -1,0 +1,1 @@
+Implementation of a rotating square wave. `en` signal allows the wave either to run or stop at a point while `rot` specifies the direction -> 0: counter-clockwise, 1: clockwise
