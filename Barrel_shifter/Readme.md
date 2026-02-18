@@ -1,2 +1,3 @@
-To set up on linux, just run `make` and then you can open the verdi using `./opengui` and if you want to open the coverage reports simply run `make view_cov`.
-To set up on Windows, manually include these files in your simulator. Once added, you can proceed to run the simulation or perform synthesis as needed.
+To set up on Linux, simply run `make`. After that, you can open Verdi using `./opengui`. If you want to view the coverage reports, run `make view_cov`.
+
+To set up on Windows, manually add the required files to your simulator. Once the files are included, you can proceed to run the simulation or perform synthesis as needed.

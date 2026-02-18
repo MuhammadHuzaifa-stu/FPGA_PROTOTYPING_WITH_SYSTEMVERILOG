@@ -1,1 +1,1 @@
-Computer Architecture Projects/Implementation in systemverilog.
+Computer Architecture Projects/Implementation in systemverilog and programmable on FPGA.
