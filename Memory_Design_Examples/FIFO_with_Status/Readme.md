@@ -1,6 +1,6 @@
-**Implemented a FIFO using FWFT (First Word Fall Through)**
+### FIFO with STATUS
 
-This design uses a synchronous write and asynchronous read register file. The output becomes available even before the `rd_en` signal is asserted. The `fifo_controller` manages the register file's `wr`, `rd`, and `wr/rd_addrs` signals, enabling the buffer to function as a circular queue.
-
-**Note:**
-FIFO and FWFT are similar, with the key difference being that FIFO registers read data, while FWFT provides data asynchronously. So,  a FIFO can be achieved by registering the output read of FWFT.
+Following status flags/signals are added:
+- almost_full  -> 75%.
+- almost_empty -> 25%.
+- w_count      -> word count(how many words are stored/available).
