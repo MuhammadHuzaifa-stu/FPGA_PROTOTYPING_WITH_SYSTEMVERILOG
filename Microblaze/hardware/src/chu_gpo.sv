@@ -1,7 +1,7 @@
 module chu_gpo #(
-    localparam ADDR_WIDTH = 5,
-    localparam DATA_WIDTH = 32,
-    localparam OUT_WIDTH  = 6
+    parameter ADDR_WIDTH = 5,
+    parameter DATA_WIDTH = 32,
+    parameter OUT_WIDTH  = 6
 ) (
     input  logic                  clk,
     input  logic                  arst_n,

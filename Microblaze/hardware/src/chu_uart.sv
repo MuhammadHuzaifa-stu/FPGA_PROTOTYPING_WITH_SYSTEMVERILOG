@@ -1,6 +1,6 @@
 module chu_uart #(
-    localparam ADDR_WIDTH    = 5,
-    localparam DATA_WIDTH    = 32
+    parameter ADDR_WIDTH    = 5,
+    parameter DATA_WIDTH    = 32
 ) (
     input  logic                  clk, 
     input  logic                  arst_n,

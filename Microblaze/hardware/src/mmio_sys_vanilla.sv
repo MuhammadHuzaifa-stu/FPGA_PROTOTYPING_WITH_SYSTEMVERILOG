@@ -129,7 +129,7 @@ module mmio_sys_vanilla # (
     // assign zero's to remaining unsed slots to avoid latches
     generate
 
-        for (genvar i=4; i<NUM_SLOTS; i++)
+        for (genvar i=SLOTS_USED; i<NUM_SLOTS; i++)
         begin
             always_comb 
             begin : unused_slot_blk

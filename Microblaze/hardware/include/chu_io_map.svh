@@ -10,4 +10,6 @@
 `define S2_LED       2
 `define S3_SW        3
 
+`define SLOTS_USED   4
+
 `endif

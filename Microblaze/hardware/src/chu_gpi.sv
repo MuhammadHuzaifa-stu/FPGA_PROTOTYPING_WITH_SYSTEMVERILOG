@@ -1,7 +1,7 @@
 module chu_gpi #(
-    localparam ADDR_WIDTH = 5,
-    localparam DATA_WIDTH = 32,
-    localparam IN_WIDTH   = 16
+    parameter ADDR_WIDTH = 5,
+    parameter DATA_WIDTH = 32,
+    parameter IN_WIDTH   = 16
 ) (
     input  logic                  clk,
     input  logic                  arst_n,
