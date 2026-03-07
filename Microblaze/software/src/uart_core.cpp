@@ -16,7 +16,7 @@ int UartCore::rx_fifo_empty() {
 
     rd_word = io_read(base_addr, RD_DATA_REG);
     empty = (int) (rd_word & RX_EMPT_FIELD) >> 8;
-    reutrn (empty);
+    return (empty);
 }
 
 int UartCore::tx_fifo_full() {
@@ -30,7 +30,7 @@ int UartCore::tx_fifo_full() {
 
 void UartCore::tx_byte(uint8_t byte) {
     while (tx_fifo_full()) {
-        // wait until the tx fifo is not full
+        // wait until the tx fifo is not full --> called polling
     }
     io_write(base_addr, WR_DATA_REG, (uint32_t) byte);
 }
