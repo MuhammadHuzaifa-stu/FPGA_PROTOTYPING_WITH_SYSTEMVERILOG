@@ -28,6 +28,7 @@ module mmio_sys_vanilla # (
 );
 
     localparam SLOT_ADDR_WIDTH = $clog2(NUM_SLOT_REGS);
+    localparam DBIT            = 8; // data bit width for uart
 
     logic [NUM_SLOTS-1:0]       slot_cs_array;
     logic [NUM_SLOTS-1:0]       slot_wr_array;
@@ -77,8 +78,10 @@ module mmio_sys_vanilla # (
 
     // Slot1: UART
     chu_uart #(
-        .ADDR_WIDTH ( SLOT_ADDR_WIDTH ),
-        .DATA_WIDTH ( DATA_WIDTH      )
+        .ADDR_WIDTH   ( SLOT_ADDR_WIDTH ),
+        .DATA_WIDTH   ( DATA_WIDTH      ),
+        .CLK_FREQ     ( 100_000_000     ), // 100MHz
+        .FIFO_DEPTH_W ( DBIT            )
     ) u_uart_slot1 (
         .clk     ( clk                           ), 
         .arst_n  ( arst_n                        ),
