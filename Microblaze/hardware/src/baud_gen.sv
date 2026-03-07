@@ -14,8 +14,8 @@ A: Considering a start bit. If you only check at 1x the baud rate, you might "mi
    3. This ensures you are always reading the data at the 8th tick—exactly in the middle of the bit where the voltage is most stable.
 */
 module baud_gen #(
-    parameter  CLK_FREQ   = 200_000_000,                          // 200MHz
-    localparam BAUD_WIDTH = $clog2((CLK_FREQ / (16 * 9600)) - 1)  // count = f / (16 * baud_rate) - 1
+    parameter CLK_FREQ   = 200_000_000,                          // 200MHz
+    parameter BAUD_WIDTH = $clog2((CLK_FREQ / (16 * 9600)) - 1)  // count = f / (16 * baud_rate) - 1
 ) (
     input  logic                  clk,
     input  logic                  arst_n,
