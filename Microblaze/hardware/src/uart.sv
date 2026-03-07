@@ -1,10 +1,10 @@
 module uart #(
+    parameter CLK_FREQ   = 200_000_000,                          // 200MHz
+    parameter FIFO_WIDTH = 2,
     parameter DBIT       = 8,
     parameter SB_TICK    = 16,                                   // 1 stop bit -> 16
                                                                  // 1.5 stop bit -> 24
                                                                  // 2 stop bit -> 32
-    parameter FIFO_WIDTH = 2,
-    parameter CLK_FREQ   = 200_000_000,                          // 200MHz
     parameter BAUD_WIDTH = $clog2((CLK_FREQ / (16 * 9600)) - 1)  // count = f / (16 * baud_rate) - 1
 
 ) (
