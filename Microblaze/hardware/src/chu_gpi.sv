@@ -14,7 +14,7 @@ module chu_gpi #(
     input  logic [DATA_WIDTH-1:0] wdata,
     output logic [DATA_WIDTH-1:0] rdata,
     // external signal
-    output logic [IN_WIDTH  -1:0] gpi_in
+    input  logic [IN_WIDTH  -1:0] gpi_in
 );
 
     logic [IN_WIDTH -1:0] gpi_reg;

@@ -107,8 +107,8 @@ module mcs_top_vanilla
         .arst_n     ( arst_n      ),
         // Fpro Bus
         .mmio_cs    ( fp_mmio_cs  ),
-        .mmio_wr    ( fp__wr      ),
-        .mmio_rd    ( fp__rd      ),
+        .mmio_wr    ( fp_wr       ),
+        .mmio_rd    ( fp_rd       ),
 
         .mmio_addr  ( fp_addr     ),
         .mmio_wdata ( fp_wr_data  ),
