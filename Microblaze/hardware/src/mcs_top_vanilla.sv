@@ -1,5 +1,7 @@
+`include "chu_io_map.svh"
+
 module mcs_top_vanilla #(
-    parameter  BRG_BASE   = 32'hc000_0000 // defualt base address for the bridge
+    parameter  BRG_BASE   = 32'hc000_0000, // defualt base address for the bridge
     localparam NUM_SW     = 16,
     localparam NUM_LED    = 6
 ) (
@@ -81,13 +83,13 @@ module mcs_top_vanilla #(
 
     // MMIO peripheral
     mmio_sys_vanilla # (
-        N_SW          ( NUM_SW         ),
-        N_LED         ( NUM_LED        ),
-        ADDR_WIDTH    ( ADDR_WIDTH     ), // [10:5] -> which slot, [4:0] -> which register
-        DATA_WIDTH    ( DATA_WIDTH     ), // since microblaze supports 32-bit data width
-        NUM_SLOTS     ( SLOTS_USED     ), // we have 0-63 slots, -> slot0: timer, slot1: uart, slot2: gpo, slot3: gpi
-        NUM_SLOT_REGS ( 32             ), // per slot we have 32 registers, each register is of 32-bits wide. 
-        COUNTER_WIDTH ( 48             )
+        .N_SW          ( NUM_SW         ),
+        .N_LED         ( NUM_LED        ),
+        .ADDR_WIDTH    ( ADDR_WIDTH     ), // [10:5] -> which slot, [4:0] -> which register
+        .DATA_WIDTH    ( DATA_WIDTH     ), // since microblaze supports 32-bit data width
+        .NUM_SLOTS     ( SLOTS_USED     ), // we have 0-63 slots, -> slot0: timer, slot1: uart, slot2: gpo, slot3: gpi
+        .NUM_SLOT_REGS ( 32             ), // per slot we have 32 registers, each register is of 32-bits wide. 
+        .COUNTER_WIDTH ( 48             )
     ) u_mmio_unit (
         .clk        ( clk         ),
         .arst_n     ( arst_n      ),

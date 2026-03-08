@@ -73,6 +73,6 @@ module chu_uart #(
     assign wr_uart = (cs & wr_en & (addr[1:0] == 2'b10));
     assign rd_uart = (cs & rd_en & (addr[1:0] == 2'b11));
 
-    assign rdata   = {(DATA_WIDTH-1-1-1){1'b0}, tx_full, rx_empty, rdata_uart}; 
+    assign rdata   = {{(DATA_WIDTH-1-1-1){1'b0}}, tx_full, rx_empty, rdata_uart}; 
 
 endmodule

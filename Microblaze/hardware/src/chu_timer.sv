@@ -53,7 +53,7 @@ module chu_timer #(
     assign clr = wr && wdata[1];
     assign go  = ctrl_reg;
 
-    assign rdata = (addr[0]) ? {(COUNTER_WIDTH-DATA_WIDTH){1'b0}, counter_reg[COUNTER_WIDTH-1:DATA_WIDTH]} 
+    assign rdata = (addr[0]) ? {{(COUNTER_WIDTH-DATA_WIDTH){1'b0}}, counter_reg[COUNTER_WIDTH-1:DATA_WIDTH]} 
                              : counter_reg[DATA_WIDTH-1:0];
 
 endmodule
