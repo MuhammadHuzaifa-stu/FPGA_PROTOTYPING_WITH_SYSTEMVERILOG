@@ -64,7 +64,7 @@ module uart_tx #(
         tx_done_tick = 1'b0;
 
         case (CS)
-            IDEL: begin
+            IDLE: begin
                 tx_next = 1'b1; // Line is idle (HIGH)
                 if (tx_start)
                 begin

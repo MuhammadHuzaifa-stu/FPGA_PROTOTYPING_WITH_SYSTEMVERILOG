@@ -1,5 +1,4 @@
 module mcs_top_vanilla 
-    import chu_io_pkg::SLOTS_USED;
     import chu_io_pkg::BRIDGE_BASE;
 # (
     localparam NUM_SW     = 16,
@@ -101,7 +100,6 @@ module mcs_top_vanilla
         .N_LED         ( NUM_LED        ),
         .ADDR_WIDTH    ( ADDR_WIDTH     ), // [10:5] -> which slot, [4:0] -> which register
         .DATA_WIDTH    ( DATA_WIDTH     ), // since microblaze supports 32-bit data width
-        .NUM_SLOTS     ( SLOTS_USED     ), // we have 0-63 slots, -> slot0: timer, slot1: uart, slot2: gpo, slot3: gpi
         .NUM_SLOT_REGS ( 32             ), // per slot we have 32 registers, each register is of 32-bits wide. 
         .COUNTER_WIDTH ( 48             )
     ) u_mmio_unit (

@@ -1,12 +1,16 @@
 module mmio_sys_vanilla 
     import chu_io_pkg::SYS_CLK_FREQ;
     import chu_io_pkg::SLOTS_USED;
+    import chu_io_pkg::S0_SYS_TIMER;
+    import chu_io_pkg::S1_UART1;
+    import chu_io_pkg::S2_LED;
+    import chu_io_pkg::S3_SW;
+    import chu_io_pkg::NUM_SLOTS;
 # (
     parameter N_SW          = 16,
     parameter N_LED         = 6,
     parameter ADDR_WIDTH    = 21, // [10:5] -> which slot, [4:0] -> which register
     parameter DATA_WIDTH    = 32, // since microblaze supports 32-bit data width
-    parameter NUM_SLOTS     = 64, // we have 0-63 slots, -> slot0: timer, slot1: uart, slot2: gpo, slot3: gpi
     parameter NUM_SLOT_REGS = 32, // per slot we have 32 registers, each register is of 32-bits wide. 
     parameter COUNTER_WIDTH = 48
 ) (

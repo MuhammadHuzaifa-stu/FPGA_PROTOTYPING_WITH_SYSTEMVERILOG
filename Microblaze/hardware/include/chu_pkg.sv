@@ -9,6 +9,7 @@ package chu_io_pkg;
     localparam S2_LED       = 2;
     localparam S3_SW        = 3;
 
+    localparam NUM_SLOTS    = 64; // we have 0-63 slots, -> slot0: timer, slot1: uart, slot2: gpo, slot3: gpi
     localparam SLOTS_USED   = 4;
 
 endpackage

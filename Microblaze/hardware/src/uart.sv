@@ -54,7 +54,7 @@ module uart #(
         .full     (              ),
         .empty    ( rx_empty     ),
         .rd       ( rd_uart      ),
-        .rd_data  ( rdata        ),
+        .rd_data  ( rdata        )
     );
 
     uart_rx #(
