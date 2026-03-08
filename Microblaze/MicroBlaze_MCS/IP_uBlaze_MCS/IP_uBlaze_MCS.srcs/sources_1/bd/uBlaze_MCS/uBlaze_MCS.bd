@@ -136,33 +136,18 @@
           <spirit:configurableElementValue spirit:referenceId="USE_IO_BUS">1</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
-      <spirit:componentInstance>
-        <spirit:instanceName>clk_wiz</spirit:instanceName>
-        <spirit:componentRef spirit:library="ip" spirit:name="clk_wiz" spirit:vendor="xilinx.com" spirit:version="6.0"/>
-        <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">uBlaze_MCS_clk_wiz_0</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="RESET_PORT">resetn</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="RESET_TYPE">ACTIVE_LOW</spirit:configurableElementValue>
-        </spirit:configurableElementValues>
-      </spirit:componentInstance>
     </spirit:componentInstances>
     <spirit:interconnections/>
     <spirit:adHocConnections>
       <spirit:adHocConnection>
-        <spirit:name>clk_wiz_clk_out1</spirit:name>
-        <spirit:internalPortReference spirit:componentRef="clk_wiz" spirit:portRef="clk_out1"/>
-        <spirit:internalPortReference spirit:componentRef="microblaze_mcs_0" spirit:portRef="Clk"/>
-      </spirit:adHocConnection>
-      <spirit:adHocConnection>
         <spirit:name>reset_rtl_0_1</spirit:name>
         <spirit:externalPortReference spirit:portRef="reset_rtl_0"/>
         <spirit:internalPortReference spirit:componentRef="microblaze_mcs_0" spirit:portRef="Reset"/>
-        <spirit:internalPortReference spirit:componentRef="clk_wiz" spirit:portRef="resetn"/>
       </spirit:adHocConnection>
       <spirit:adHocConnection>
         <spirit:name>clk_in1_0_1</spirit:name>
         <spirit:externalPortReference spirit:portRef="clk_in1_0"/>
-        <spirit:internalPortReference spirit:componentRef="clk_wiz" spirit:portRef="clk_in1"/>
+        <spirit:internalPortReference spirit:componentRef="microblaze_mcs_0" spirit:portRef="Clk"/>
       </spirit:adHocConnection>
     </spirit:adHocConnections>
     <spirit:hierConnections>
