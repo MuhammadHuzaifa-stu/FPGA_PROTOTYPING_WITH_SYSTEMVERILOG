@@ -1,5 +1,6 @@
 module mmio_sys_vanilla 
     import chu_io_pkg::SYS_CLK_FREQ;
+    import chu_io_pkg::SLOTS_USED;
 # (
     parameter N_SW          = 16,
     parameter N_LED         = 6,
