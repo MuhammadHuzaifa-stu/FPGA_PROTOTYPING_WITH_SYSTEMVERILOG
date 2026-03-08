@@ -1,0 +1,19 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 non-TLS
+#  -string -flagsOSRD
+preplace port clk_in1_0 -pg 1 -y 160 -defaultsOSRD
+preplace port IO_0 -pg 1 -y 140 -defaultsOSRD
+preplace port reset_rtl_0 -pg 1 -y 10 -defaultsOSRD
+preplace inst clk_wiz -pg 1 -lvl 1 -y 140 -defaultsOSRD
+preplace inst microblaze_mcs_0 -pg 1 -lvl 2 -y 140 -defaultsOSRD
+preplace netloc microblaze_mcs_0_IO 1 2 1 N
+preplace netloc clk_in1_0_1 1 0 1 -60
+preplace netloc reset_rtl_0_1 1 0 2 -60 70 120J
+preplace netloc clk_wiz_clk_out1 1 1 1 NJ
+levelinfo -pg 1 -80 30 320 530 -top -10 -bot 350
+",
+}
+{
+   da_board_cnt: "2",
+}

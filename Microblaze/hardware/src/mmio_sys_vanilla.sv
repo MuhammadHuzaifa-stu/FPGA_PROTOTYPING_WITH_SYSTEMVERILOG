@@ -29,6 +29,7 @@ module mmio_sys_vanilla # (
 
     localparam SLOT_ADDR_WIDTH = $clog2(NUM_SLOT_REGS);
     localparam DBIT            = 8; // data bit width for uart
+    localparam SYS_CLK         = SYS_CLK_FREQ * 1_000_000; // convert Hz to MHz
 
     logic [NUM_SLOTS-1:0]       slot_cs_array;
     logic [NUM_SLOTS-1:0]       slot_wr_array;
@@ -80,7 +81,7 @@ module mmio_sys_vanilla # (
     chu_uart #(
         .ADDR_WIDTH   ( SLOT_ADDR_WIDTH ),
         .DATA_WIDTH   ( DATA_WIDTH      ),
-        .CLK_FREQ     ( 100_000_000     ), // 100MHz
+        .CLK_FREQ     ( SYS_CLK         ), // 100MHz
         .FIFO_DEPTH_W ( DBIT            )
     ) u_uart_slot1 (
         .clk     ( clk                           ), 
