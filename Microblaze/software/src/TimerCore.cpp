@@ -1,3 +1,7 @@
+#include "../include/timer_core.h"
+#include "../include/chu_io_rw.h"
+#include "../include/chu_io_map.h"
+
 TimerCore::TimerCore(uint32_t core_base_addr) {
     base_addr = core_base_addr;
     ctrl = 0x01;
@@ -19,7 +23,7 @@ void TimerCore::go() {
 void TimerCore::clear() {
     // write clear-bit to generate a 1-clock pulse
     // clear bit coesn't affect ctrl 
-    wdata = ctrl | CLR_FIELD;
+    uint32_t wdata = ctrl | CLR_FIELD;
     io_write(base_addr, CTRL_REG, wdata);   
 }
 

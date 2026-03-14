@@ -1,3 +1,7 @@
+#include "chu_init.h"
+#include "chu_io_rw.h"
+#include "chu_io_map.h"
+
 class GpoCore {
     // register map
     enum {

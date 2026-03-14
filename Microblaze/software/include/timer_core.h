@@ -1,3 +1,9 @@
+#ifndef _TIMER_CORE_H_INCLUDED
+#define _TIMER_CORE_H_INCLUDED
+
+#include "chu_io_rw.h"
+#include "chu_io_map.h"
+
 class TimerCore {
     // register map
     enum {
@@ -24,3 +30,5 @@ private:
     uint32_t base_addr;
     uint32_t ctrl;              // current state of control register
 };
+
+#endif

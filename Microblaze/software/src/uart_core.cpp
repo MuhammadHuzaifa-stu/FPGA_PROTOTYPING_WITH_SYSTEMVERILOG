@@ -1,7 +1,13 @@
+#include "../include/uart_core.h"
+#include "../include/chu_io_rw.h"
+#include "../include/chu_io_map.h"
+
 UartCore::UartCore(uint32_t core_base_addr) {
     base_addr = core_base_addr;
     set_baud_rate(9600);
 }
+
+UartCore::~UartCore() {}
 
 void UartCore::set_baud_rate(int baud) {
     uint32_t dvsr;

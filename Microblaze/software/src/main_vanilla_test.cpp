@@ -1,7 +1,9 @@
 #define _DEBUG
 
-#include "chu_init.h"
-#include "gpio_core.h"
+#include "../include/chu_init.h"
+#include "../include/gpio_core.h"
+#include "../include/uart_core.h"
+#include "../include/timer_core.h"
 
 void timer_check(GpoCore *led_p) {
     int i;
@@ -41,9 +43,9 @@ void sw_check(GpoCore *led_p, GpiCore *sw_p) {
 void uart_check() {
     static int loop = 0;
 
-    uart.disp_str("uart test #");
-    uart.disp_num(loop);
-    uart.disp_str("\n\r");
+    uart.disp("uart test #");
+    uart.disp(loop);
+    uart.disp("\n\r");
     loop++;
 }
 

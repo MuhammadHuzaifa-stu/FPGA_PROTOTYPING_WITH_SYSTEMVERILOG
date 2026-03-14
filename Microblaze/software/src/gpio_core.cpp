@@ -1,3 +1,7 @@
+#include "../include/gpio_core.h"
+#include "../include/chu_io_rw.h"
+#include "../include/chu_io_map.h"
+
 GpoCore::GpoCore(uint32_t core_base_addr) {
     base_addr = core_base_addr;
     wr_data   = 0;
