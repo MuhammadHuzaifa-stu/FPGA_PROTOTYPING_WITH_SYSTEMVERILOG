@@ -35,7 +35,7 @@ module chu_uart #(
     logic                  wr_dvsr;
     logic [BAUD_WIDTH-1:0] dvsr_reg;
 
-    logic [DATA_WIDTH-1:0] rdata_uart;
+    logic [DBIT      -1:0] rdata_uart;
 
     uart #(
         .CLK_FREQ  ( CLK_FREQ     ),

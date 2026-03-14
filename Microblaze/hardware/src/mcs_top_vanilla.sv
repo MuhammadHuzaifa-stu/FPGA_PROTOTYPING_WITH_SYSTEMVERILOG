@@ -85,7 +85,7 @@ module mcs_top_vanilla
         .IO_0_read_data    ( IO_0_read_data    ),
         .IO_0_ready        ( IO_0_ready        ),
         // Fpro bus
-        .fp_video_cs       ( 'b0               ), // TODO: support video in the future
+        .fp_video_cs       (                   ), // TODO: support video in the future
         .fp_mmio_cs        ( fp_mmio_cs        ),
         .fp_wr             ( fp_wr             ),
         .fp_rd             ( fp_rd             ),
@@ -98,7 +98,7 @@ module mcs_top_vanilla
     mmio_sys_vanilla # (
         .N_SW          ( NUM_SW         ),
         .N_LED         ( NUM_LED        ),
-        .ADDR_WIDTH    ( ADDR_WIDTH     ), // [10:5] -> which slot, [4:0] -> which register
+        .ADDR_WIDTH    ( MMIO_ADDR_W    ), // [10:5] -> which slot, [4:0] -> which register
         .DATA_WIDTH    ( DATA_WIDTH     ), // since microblaze supports 32-bit data width
         .NUM_SLOT_REGS ( 32             ), // per slot we have 32 registers, each register is of 32-bits wide. 
         .COUNTER_WIDTH ( 48             )
