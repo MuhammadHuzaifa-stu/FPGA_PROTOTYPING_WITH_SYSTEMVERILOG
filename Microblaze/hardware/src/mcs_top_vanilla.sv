@@ -48,18 +48,18 @@ module mcs_top_vanilla
     assign arst_n = locked & sys_rstn;
 
     // clocking wizard
-    clock_ip_wrapper u_clock_gen (
-        .clk_in1_n_0 ( sys_clk_n  ),
-        .clk_in1_p_0 ( sys_clk_p  ),
-        .clk_out1_0  ( clk        ),
-        .locked_0    ( locked     ),
-        .resetn_0    ( sys_rstn   )
+    clock_wrapper u_clock_gen (
+        .CLK_IN1_D_0_clk_n ( sys_clk_n  ),
+        .CLK_IN1_D_0_clk_p ( sys_clk_p  ),
+        .clk_out1_0        ( clk        ),
+        .locked_0          ( locked     ),
+        .resetn_0          ( sys_rstn   )
     );
 
     // uBlaze_MCS
-    uBlaze_MCS_wrapper u_cpu_unit (
-        .clk_in1_0         ( clk               ),
-        .reset_rtl_0       ( arst_n            ),
+    cpu_wrapper u_cpu_unit (
+        .Clk_0             ( clk               ),
+        .Reset_0           ( arst_n            ),
         .IO_0_addr_strobe  ( IO_0_addr_strobe  ),
         .IO_0_address      ( IO_0_address      ),
         .IO_0_byte_enable  ( IO_0_byte_enable  ),
