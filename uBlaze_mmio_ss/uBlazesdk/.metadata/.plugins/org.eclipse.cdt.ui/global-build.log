@@ -1,0 +1,199 @@
+13:29:14 **** Build of project mcs_cpu_bsp ****
+make -k all 
+"Running Make include in u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/libsrc/bram_v4_2/src"
+make -C u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/libsrc/cpu_v2_7/src"
+make -C u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/libsrc/cpu_v2_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/libsrc/iomodule_v2_5/src"
+make -C u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/libsrc/iomodule_v2_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/libsrc/standalone_v6_7/src"
+make -C u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/libsrc/bram_v4_2/src"
+make -C u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+xbram_g.c:65:2: warning: missing initializer for field 'CtrlBaseAddress' of 'XBram_Config {aka struct <anonymous>}' [-Wmissing-field-initializers]
+  },
+  ^
+In file included from xbram_g.c:41:0:
+xbram.h:175:10: note: 'CtrlBaseAddress' declared here
+  UINTPTR CtrlBaseAddress;     /**< Device register base address.*/
+          ^~~~~~~~~~~~~~~
+xbram_g.c:82:2: warning: missing initializer for field 'CtrlBaseAddress' of 'XBram_Config {aka struct <anonymous>}' [-Wmissing-field-initializers]
+  }
+  ^
+In file included from xbram_g.c:41:0:
+xbram.h:175:10: note: 'CtrlBaseAddress' declared here
+  UINTPTR CtrlBaseAddress;     /**< Device register base address.*/
+          ^~~~~~~~~~~~~~~
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/libsrc/cpu_v2_7/src"
+make -C u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/libsrc/cpu_v2_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/libsrc/iomodule_v2_5/src"
+make -C u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/libsrc/iomodule_v2_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling iomodule"
+xiomodule.c: In function 'XIOModule_Initialize':
+xiomodule.c:170:18: warning: comparison is always false due to limited range of data type [-Wtype-limits]
+  for (Id = 0; Id < XPAR_IOMODULE_INTC_MAX_INTR_SIZE; Id++) {
+                  ^
+xiomodule.c:216:19: warning: comparison is always false due to limited range of data type [-Wtype-limits]
+   for (Id = 0; Id < XPAR_IOMODULE_INTC_MAX_INTR_SIZE; Id++) {
+                   ^
+In file included from ../../../include/xstatus.h:55:0,
+                 from xiomodule.h:265,
+                 from xiomodule.c:60:
+xiomodule.c: In function 'XIOModule_Connect':
+xiomodule.c:344:23: warning: comparison is always false due to limited range of data type [-Wtype-limits]
+  Xil_AssertNonvoid(Id < XPAR_IOMODULE_INTC_MAX_INTR_SIZE);
+                       ^
+../../../include/xil_assert.h:132:9: note: in definition of macro 'Xil_AssertNonvoid'
+     if (Expression) {                              \
+         ^~~~~~~~~~
+xiomodule.c: In function 'XIOModule_Disconnect':
+xiomodule.c:384:20: warning: comparison is always false due to limited range of data type [-Wtype-limits]
+  Xil_AssertVoid(Id < XPAR_IOMODULE_INTC_MAX_INTR_SIZE);
+                    ^
+../../../include/xil_assert.h:107:9: note: in definition of macro 'Xil_AssertVoid'
+     if (Expression) {                              \
+         ^~~~~~~~~~
+xiomodule.c: In function 'XIOModule_Enable':
+xiomodule.c:434:20: warning: comparison is always false due to limited range of data type [-Wtype-limits]
+  Xil_AssertVoid(Id < XPAR_IOMODULE_INTC_MAX_INTR_SIZE);
+                    ^
+../../../include/xil_assert.h:107:9: note: in definition of macro 'Xil_AssertVoid'
+     if (Expression) {                              \
+         ^~~~~~~~~~
+xiomodule.c: In function 'XIOModule_Disable':
+xiomodule.c:480:20: warning: comparison is always false due to limited range of data type [-Wtype-limits]
+  Xil_AssertVoid(Id < XPAR_IOMODULE_INTC_MAX_INTR_SIZE);
+                    ^
+../../../include/xil_assert.h:107:9: note: in definition of macro 'Xil_AssertVoid'
+     if (Expression) {                              \
+         ^~~~~~~~~~
+xiomodule.c: In function 'XIOModule_Acknowledge':
+xiomodule.c:524:20: warning: comparison is always false due to limited range of data type [-Wtype-limits]
+  Xil_AssertVoid(Id < XPAR_IOMODULE_INTC_MAX_INTR_SIZE);
+                    ^
+../../../include/xil_assert.h:107:9: note: in definition of macro 'Xil_AssertVoid'
+     if (Expression) {                              \
+         ^~~~~~~~~~
+xiomodule.c: In function 'XIOModule_ConnectFastHandler':
+xiomodule.c:629:23: warning: comparison is always false due to limited range of data type [-Wtype-limits]
+  Xil_AssertNonvoid(Id < XPAR_IOMODULE_INTC_MAX_INTR_SIZE);
+                       ^
+../../../include/xil_assert.h:132:9: note: in definition of macro 'Xil_AssertNonvoid'
+     if (Expression) {                              \
+         ^~~~~~~~~~
+xiomodule.c: In function 'XIOModule_SetNormalIntrMode':
+xiomodule.c:705:20: warning: comparison is always false due to limited range of data type [-Wtype-limits]
+  Xil_AssertVoid(Id < XPAR_IOMODULE_INTC_MAX_INTR_SIZE);
+                    ^
+../../../include/xil_assert.h:107:9: note: in definition of macro 'Xil_AssertVoid'
+     if (Expression) {                              \
+         ^~~~~~~~~~
+xiomodule_l.c: In function 'XIOModule_DeviceInterruptHandler':
+xiomodule_l.c:168:35: warning: comparison of unsigned expression < 0 is always false [-Wtype-limits]
+  for (IntrNumber = 0U; IntrNumber < XPAR_IOMODULE_INTC_MAX_INTR_SIZE;
+                                   ^
+xiomodule_l.c:153:15: warning: variable 'Register' set but not used [-Wunused-but-set-variable]
+  volatile u32 Register;   /* used as bit bucket */
+               ^~~~~~~~
+"Running Make libs in u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/libsrc/standalone_v6_7/src"
+make -C u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:74:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+'Finished building libraries'
+13:29:51 **** Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main.cc'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+'Finished building: ../src/main.cc'
+' '
+'Building target: mmio_ss_test.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mmio_ss_test.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: mmio_ss_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mmio_ss_test.elf  |tee "mmio_ss_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   1952	    268	   3108	   5328	   14d0	mmio_ss_test.elf
+'Finished building: mmio_ss_test.elf.size'
+' '
+13:29:55 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+make: Nothing to be done for `all'.
+13:30:58 **** Clean-only build of configuration Debug for project mmio_ss_test ****
+make clean 
+rm -rf  ./src/main.d  ./src/main.o  mmio_ss_test.elf.size  mmio_ss_test.elf
+' '
+
+****  of configuration Debug for project mmio_ss_test ****
+
+Nothing to build for project mmio_ss_test
+
+****  of configuration Debug for project mmio_ss_test ****
+
+Nothing to build for project mmio_ss_test
+13:31:14 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/TimerCore.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/TimerCore.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/TimerCore.d" -MT"src/TimerCore.o" -o "src/TimerCore.o" "../src/TimerCore.cpp"
+'Finished building: ../src/TimerCore.cpp'
+' '
+'Building file: ../src/chu_init.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chu_init.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chu_init.d" -MT"src/chu_init.o" -o "src/chu_init.o" "../src/chu_init.cpp"
+'Finished building: ../src/chu_init.cpp'
+' '
+'Building file: ../src/gpio_core.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_core.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/gpio_core.d" -MT"src/gpio_core.o" -o "src/gpio_core.o" "../src/gpio_core.cpp"
+'Finished building: ../src/gpio_core.cpp'
+' '
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+'Finished building: ../src/main_vanilla_test.cpp'
+' '
+'Building file: ../src/uart_core.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/uart_core.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/uart_core.d" -MT"src/uart_core.o" -o "src/uart_core.o" "../src/uart_core.cpp"
+'Finished building: ../src/uart_core.cpp'
+' '
+'Building target: mmio_ss_test.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mmio_ss_test.elf"  ./src/TimerCore.o ./src/chu_init.o ./src/gpio_core.o ./src/main_vanilla_test.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: mmio_ss_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mmio_ss_test.elf  |tee "mmio_ss_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12152	    284	   3140	  15576	   3cd8	mmio_ss_test.elf
+'Finished building: mmio_ss_test.elf.size'
+' '
+13:39:49 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+'Finished building: ../src/main_vanilla_test.cpp'
+' '
+'Building target: mmio_ss_test.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mmio_ss_test.elf"  ./src/TimerCore.o ./src/chu_init.o ./src/gpio_core.o ./src/main_vanilla_test.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: mmio_ss_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mmio_ss_test.elf  |tee "mmio_ss_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  11316	    284	   3144	  14744	   3998	mmio_ss_test.elf
+'Finished building: mmio_ss_test.elf.size'
+' '
+13:39:57 **** Incremental Build of configuration Debug for project mmio_ss_test ****
+make all 
+make: Nothing to be done for `all'.

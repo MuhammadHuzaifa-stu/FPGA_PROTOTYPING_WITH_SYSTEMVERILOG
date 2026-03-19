@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/FPGA_PROTOTYPING/Microblaze/uBlaze/ublaze_mcs/ublaze_mcs.runs/impl_1'
+HD_PWD='C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/uBlaze/ublaze_mcs/ublaze_mcs.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -41,7 +41,7 @@ EAStep()
 }
 
 # pre-commands:
-/bin/touch .init_design.begin.rst
+/bin/touch .write_bitstream.begin.rst
 EAStep vivado -log mcs_top_vanilla.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source mcs_top_vanilla.tcl -notrace
 
 
