@@ -162,6 +162,33 @@ void collision_led(GpoCore *led_p, GpiCore *sw_p) {
     led_p->write((1 << pos2) | (1 << pos1));
 }
 
+// Timer Display
+void timer_display() {
+    static uint64_t last_update = 0; // Tracks the last time we printed
+    
+    static uint8_t sec = 0;
+    static uint8_t min = 0;
+
+    uint64_t current_time = now_ms();
+
+    if (current_time - last_update >= 1000) { // Update every second
+        last_update = current_time;
+        sec++;
+        if (sec >= 60) {
+            sec = 0;
+            min++;
+            if (min >= 60) {
+                min = 0; // Reset after 59:59
+            }
+        }
+        uart.disp("Timer: ");
+        uart.disp(min);
+        uart.disp(":");
+        uart.disp(sec);
+        uart.disp("\n\r");
+    }
+}
+
 // instantiate witch, led
 GpoCore led(get_slot_addr(BRIDGE_BASE, S2_LED));
 GpiCore sw(get_slot_addr(BRIDGE_BASE, S3_SW));
@@ -178,6 +205,8 @@ int main() {
         // chasing_led(&led, &sw, 6);
         // >>>>>>>>>> COLLISION LED TEST <<<<<<<<<<
         // collision_led(&led, &sw, 6);
+        // >>>>>>>>>> TIMER DISPLAY TEST <<<<<<<<<<
+        // timer_display();
 
     }
 }
