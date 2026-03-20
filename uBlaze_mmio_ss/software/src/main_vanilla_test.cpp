@@ -53,19 +53,20 @@ void uart_check() {
 
 // chasing LED
 void chasing_led(GpoCore *led_p, GpiCore *sw_p, int n) {
-    static int last_sleep_time = -1; // to check the previous state of the speed control switches
-    int i, s;
+    static int16_t last_sleep_time = -1;   // to check the previous state of the speed control switches
+    static uint8_t               i =  0;
+    static bool            forward = true; // direction of the chase (true for right, false for left)
+
+    int s;
     int sleep_time;
+
+    int8_t up;
+    int8_t dwn;
 
     s = sw_p->read();
     // switch_0: when 1 right most LED lit.
     // switch_1-switch_5: controls the speed of the LED lit.
-    if      (s & 0x00000020) sleep_time = 1800;
-    else if (s & 0x00000010) sleep_time = 1600;
-    else if (s & 0x00000008) sleep_time = 1400;
-    else if (s & 0x00000004) sleep_time = 1200;
-    else if (s & 0x00000002) sleep_time = 1000;
-    else                     sleep_time = 2000;
+    sleep_time = 1000 + ((s & 0x03E) << 4);
 
     // ONLY print if the speed actually changed
     if (sleep_time != last_sleep_time) {
@@ -75,22 +76,34 @@ void chasing_led(GpoCore *led_p, GpiCore *sw_p, int n) {
         last_sleep_time = sleep_time; // Update the "memory"
     }
 
-    if (s & 0x00000001) {
-        led_p->write(0x0001);
+    if (s & 0x01) {
+        led_p->write(0x01);
+        i = 0;
     } else {
-        for (i=0; i<n; i++) {
-            led_p->write(1, i);
-            if (i != n-1) sleep_ms(sleep_time);
-            led_p->write(0, i);
-            // sleep_ms(sleep_time);
-        }
-        for (i=n-1; i>=0; i--) {
-            led_p->write(1, i);
-            if (i != 0) sleep_ms(sleep_time);
-            led_p->write(0, i);
-            // sleep_ms(sleep_time);
-        }
+        up  = i + 1;
+        dwn = i - 1;
 
+        // 1. Turn ON current LED
+        led_p->write(1, i);
+        sleep_ms(sleep_time);
+        
+        // 2. Turn OFF current LED before moving
+        led_p->write(0, i);
+
+        // 3. Update index and direction
+        if (forward) {
+            if (i >= n - 1) {
+                forward = false;
+                i = dwn;
+            } 
+            else i = up;
+        } else {
+            if (i <= 0) {
+                forward = true;
+                i = up;
+            }
+            else i = dwn;
+        }
     }
 }
 
