@@ -2,7 +2,7 @@ module chu_io_pwm_core #(
     parameter R          = 10, // resolution of PWM
     parameter DATA_WIDTH = 32,
     parameter ADDR_WIDTH = 5,
-    parameter NUM_PWM    = 16
+    parameter NUM_PWM    = 8
 ) (
     input  logic                  clk,
     input  logic                  arst_n,
@@ -69,7 +69,7 @@ module chu_io_pwm_core #(
             end 
             else if (duty_arr_en)
             begin
-                duty_2d_arr[addr[ADDR_WIDTH-2:0]] <= wdata[R:0];
+                duty_2d_arr[addr[ADDR_WIDTH-3:0]] <= wdata[R:0];
             end
         end        
     endgenerate

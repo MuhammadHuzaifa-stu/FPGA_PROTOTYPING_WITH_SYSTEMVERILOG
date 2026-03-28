@@ -5,6 +5,9 @@ module mmio_sys_vanilla
     import chu_io_pkg::S1_UART1;
     import chu_io_pkg::S2_LED;
     import chu_io_pkg::S3_SW;
+    import chu_io_pkg::S6_PWM;
+    import chu_io_pkg::PWM_RESOLTUIN;
+    import chu_io_pkg::PWM_CHANNELS;
     import chu_io_pkg::NUM_SLOTS;
 # (
     parameter N_SW          = 16,
@@ -42,6 +45,11 @@ module mmio_sys_vanilla
     logic [SLOT_ADDR_WIDTH-1:0] slot_reg_addr_array[NUM_SLOTS-1:0];
     logic [DATA_WIDTH-1:0]      slot_rdata_array   [NUM_SLOTS-1:0];
     logic [DATA_WIDTH-1:0]      slot_wdata_array   [NUM_SLOTS-1:0];
+    
+    logic [N_LED-1:0]           gpo;
+    logic [PWM_CHANNELS-1:0]    pwm;
+
+    assign led = sw[N_SW - 1] ? pwm[N_LED-1:0] : gpo; // if MSB switch is ON, then connect PWM to LEDs, else connect GPO to LEDs
 
     // mmio_controller
     chu_mmio_controller # (
@@ -115,7 +123,7 @@ module mmio_sys_vanilla
         .addr    ( slot_reg_addr_array[S2_LED] ),
         .wdata   ( slot_wdata_array   [S2_LED] ),
         .rdata   ( slot_rdata_array   [S2_LED] ),
-        .gpo_out ( led                         )
+        .gpo_out ( gpo                         )
     );
 
     // Slot3: GPI (SW)
@@ -133,6 +141,24 @@ module mmio_sys_vanilla
         .wdata  ( slot_wdata_array   [S3_SW] ),
         .rdata  ( slot_rdata_array   [S3_SW] ),
         .gpi_in ( sw                         )
+    );
+
+    // Slot6: PWM
+    chu_io_pwm_core #(
+        .R          ( PWM_RESOLTUIN   ),
+        .DATA_WIDTH ( DATA_WIDTH      ),
+        .ADDR_WIDTH ( SLOT_ADDR_WIDTH ),
+        .NUM_PWM    ( PWM_CHANNELS    )
+    ) u_sw_slot3 (
+        .clk    ( clk                         ),
+        .arst_n ( arst_n                      ),
+        .cs     ( slot_cs_array      [S6_PWM] ),
+        .wr_en  ( slot_wr_array      [S6_PWM] ),
+        .rd_en  ( slot_rd_array      [S6_PWM] ),
+        .addr   ( slot_reg_addr_array[S6_PWM] ),
+        .wdata  ( slot_wdata_array   [S6_PWM] ),
+        .rdata  ( slot_rdata_array   [S6_PWM] ),
+        .pwm_out( pwm                         )
     );
 
     // assign zero's to remaining unsed slots to avoid latches
