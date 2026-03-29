@@ -230,6 +230,8 @@ int main() {
         // collision_led(&led, &sw, 6);
         // >>>>>>>>>> TIMER DISPLAY TEST <<<<<<<<<<
         // timer_display();
+        // >>>>>>>>>> PWM TEST <<<<<<<<<<
+        // pwm_3color_led_check(pwm);
 
     }
 }
