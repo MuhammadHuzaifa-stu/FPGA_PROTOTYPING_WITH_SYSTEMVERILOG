@@ -17,9 +17,15 @@ The system utilizes a "Vanilla" configuration, providing essential peripherals c
 | **UART** | `uart.sv`, `baud_gen.sv`, `fifo.sv` | Serial communication (Default: 9600 baud) | Slot 1 |
 | **GPO** | `chu_gpo.sv` | General Purpose Output (6 x LEDs) | Slot 2 |
 | **GPI** | `chu_gpi.sv` | General Purpose Input (16 x Switches) | Slot 3 |
+| **USER** | `Pending` | Pending | Slot 4 |
+| **ADC** | `Pending` | Pending | Slot 5 |
+| **PWM** | `chu_io_pwm_cre.sv` | Pulse Width Modulation (8 x Channels) | Slot 6 |
 
 ### Note
-Defualt Clocking wizard expects `200MHz` input diffrenetial clock, and provides `100MHz` output single ended clock for MCS and MMIO SS.
+- Defualt Clocking wizard expects `200MHz` input diffrenetial clock, and provides `100MHz` output single ended clock for MCS and MMIO SS.
+- Switch[15] will decide weather to use PWM Core(lower 6, as upper 2 are for PMOD) for LEDs or GPO Core.
+    - sw_15==1 -> PWM
+    - sw_15==0 -> GPO
 
 ## 📁 Directory Structure
 ```text
