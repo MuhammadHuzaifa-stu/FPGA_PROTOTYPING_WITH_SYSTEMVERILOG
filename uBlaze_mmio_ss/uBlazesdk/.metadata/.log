@@ -1006,3 +1006,22 @@ For each bit:
 
 !ENTRY com.xilinx.sdk.utils 0 0 2026-03-29 11:55:53.833
 !MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-03-29 12:04:21.441
+!MESSAGE XSCT Command: [disconnect tcfchan#3], Thread: Thread-417
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-03-29 12:04:21.447
+!MESSAGE XSCT command with result: [disconnect tcfchan#3], Result: [null, ]. Thread: Thread-417
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-03-29 12:04:22.097
+!MESSAGE An internal error occurred during: "LabelEventJob".
+!STACK 0
+org.eclipse.swt.SWTException: Device is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1262)
+	at org.eclipse.swt.widgets.Display.asyncExec(Display.java:710)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.fireLabelEvent(GitLightweightDecorator.java:706)
+	at org.eclipse.egit.ui.internal.decorators.LabelEventJob.run(GitLightweightDecorator.java:776)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)

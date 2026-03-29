@@ -886,3 +886,4 @@ con
 ----------------End of Script----------------
 
 11:55:53 INFO  : Launch script is exported to file 'C:\FPGA_PROTOTYPING\uBlaze_mmio_ss\uBlazesdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_mmio_ss_test.elf_on_local.tcl'
+12:04:21 INFO  : Disconnected from the channel tcfchan#3.
