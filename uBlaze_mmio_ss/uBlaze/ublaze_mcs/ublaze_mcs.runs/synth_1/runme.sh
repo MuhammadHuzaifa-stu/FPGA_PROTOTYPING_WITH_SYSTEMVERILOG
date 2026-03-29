@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/FPGA_PROTOTYPING/Microblaze/uBlaze/ublaze_mcs/ublaze_mcs.runs/synth_1'
+HD_PWD='C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/uBlaze/ublaze_mcs/ublaze_mcs.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

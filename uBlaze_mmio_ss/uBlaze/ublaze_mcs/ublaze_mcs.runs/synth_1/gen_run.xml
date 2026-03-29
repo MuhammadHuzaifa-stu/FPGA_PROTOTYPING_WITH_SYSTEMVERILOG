@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a35tfgg484-2" LaunchTime="1773637285">
+<GenRun Id="synth_1" LaunchPart="xc7a35tfgg484-2" LaunchTime="1774763661">
   <File Type="PA-TCL" Name="mcs_top_vanilla.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="mcs_top_vanilla_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="mcs_top_vanilla_reports.tcl"/>
   <File Type="RDS-RDS" Name="mcs_top_vanilla.vds"/>
   <File Type="RDS-UTIL" Name="mcs_top_vanilla_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="mcs_top_vanilla_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="mcs_top_vanilla.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="mcs_top_vanilla_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="mcs_top_vanilla_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/bd/cpu/cpu.bd">
@@ -51,6 +54,13 @@
       </FileInfo>
     </File>
     <File Path="$PPRDIR/../../hardware/src/chu_gpo.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../hardware/src/chu_io_pwm_core.sv">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -146,6 +156,14 @@
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../uBlazesdk/mmio_ss_test/Debug/mmio_ss_test.elf">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="ScopedToRef" Val="cpu"/>
+        <Attr Name="ScopedToCell" Val="microblaze_mcs_0/inst/microblaze_I"/>
+        <Attr Name="IsVisible" Val="1"/>
       </FileInfo>
     </File>
     <Config>

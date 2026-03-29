@@ -17,36 +17,36 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 13468 
+INFO: Helper process launched with PID 18936 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 464.391 ; gain = 101.340
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 464.277 ; gain = 100.746
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'mcs_top_vanilla' [C:/FPGA_PROTOTYPING/Microblaze/hardware/src/mcs_top_vanilla.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'mcs_top_vanilla' [C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/hardware/src/mcs_top_vanilla.sv:1]
 	Parameter NUM_SW bound to: 16 - type: integer 
 	Parameter NUM_LED bound to: 6 - type: integer 
 	Parameter ADDR_WIDTH bound to: 32 - type: integer 
 	Parameter DATA_WIDTH bound to: 32 - type: integer 
 	Parameter BYTE_EN bound to: 4 - type: integer 
 	Parameter MMIO_ADDR_W bound to: 21 - type: integer 
-INFO: [Synth 8-6157] synthesizing module 'clock_wrapper' [C:/FPGA_PROTOTYPING/Microblaze/uBlaze/ublaze_mcs/ublaze_mcs.srcs/sources_1/bd/clock/hdl/clock_wrapper.v:12]
-INFO: [Synth 8-6157] synthesizing module 'clock' [C:/FPGA_PROTOTYPING/Microblaze/uBlaze/ublaze_mcs/ublaze_mcs.srcs/sources_1/bd/clock/synth/clock.v:13]
-INFO: [Synth 8-6157] synthesizing module 'clock_clk_wiz_0_0' [C:/FPGA_PROTOTYPING/Microblaze/uBlaze/ublaze_mcs/ublaze_mcs.runs/synth_1/.Xil/Vivado-3720-DESKTOP-QOVO705/realtime/clock_clk_wiz_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'clock_clk_wiz_0_0' (1#1) [C:/FPGA_PROTOTYPING/Microblaze/uBlaze/ublaze_mcs/ublaze_mcs.runs/synth_1/.Xil/Vivado-3720-DESKTOP-QOVO705/realtime/clock_clk_wiz_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'clock' (2#1) [C:/FPGA_PROTOTYPING/Microblaze/uBlaze/ublaze_mcs/ublaze_mcs.srcs/sources_1/bd/clock/synth/clock.v:13]
-INFO: [Synth 8-6155] done synthesizing module 'clock_wrapper' (3#1) [C:/FPGA_PROTOTYPING/Microblaze/uBlaze/ublaze_mcs/ublaze_mcs.srcs/sources_1/bd/clock/hdl/clock_wrapper.v:12]
-INFO: [Synth 8-6157] synthesizing module 'cpu_wrapper' [C:/FPGA_PROTOTYPING/Microblaze/uBlaze/ublaze_mcs/ublaze_mcs.srcs/sources_1/bd/cpu/hdl/cpu_wrapper.v:12]
-INFO: [Synth 8-6157] synthesizing module 'cpu' [C:/FPGA_PROTOTYPING/Microblaze/uBlaze/ublaze_mcs/ublaze_mcs.srcs/sources_1/bd/cpu/synth/cpu.v:13]
-INFO: [Synth 8-6157] synthesizing module 'cpu_microblaze_mcs_0_0' [C:/FPGA_PROTOTYPING/Microblaze/uBlaze/ublaze_mcs/ublaze_mcs.runs/synth_1/.Xil/Vivado-3720-DESKTOP-QOVO705/realtime/cpu_microblaze_mcs_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'cpu_microblaze_mcs_0_0' (4#1) [C:/FPGA_PROTOTYPING/Microblaze/uBlaze/ublaze_mcs/ublaze_mcs.runs/synth_1/.Xil/Vivado-3720-DESKTOP-QOVO705/realtime/cpu_microblaze_mcs_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'cpu' (5#1) [C:/FPGA_PROTOTYPING/Microblaze/uBlaze/ublaze_mcs/ublaze_mcs.srcs/sources_1/bd/cpu/synth/cpu.v:13]
-INFO: [Synth 8-6155] done synthesizing module 'cpu_wrapper' (6#1) [C:/FPGA_PROTOTYPING/Microblaze/uBlaze/ublaze_mcs/ublaze_mcs.srcs/sources_1/bd/cpu/hdl/cpu_wrapper.v:12]
-INFO: [Synth 8-6157] synthesizing module 'chu_mcs_bridge' [C:/FPGA_PROTOTYPING/Microblaze/hardware/src/chu_mcs_bridge.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'clock_wrapper' [C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/uBlaze/ublaze_mcs/ublaze_mcs.srcs/sources_1/bd/clock/hdl/clock_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'clock' [C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/uBlaze/ublaze_mcs/ublaze_mcs.srcs/sources_1/bd/clock/synth/clock.v:13]
+INFO: [Synth 8-6157] synthesizing module 'clock_clk_wiz_0_0' [C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/uBlaze/ublaze_mcs/ublaze_mcs.runs/synth_1/.Xil/Vivado-10180-DESKTOP-QOVO705/realtime/clock_clk_wiz_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clock_clk_wiz_0_0' (1#1) [C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/uBlaze/ublaze_mcs/ublaze_mcs.runs/synth_1/.Xil/Vivado-10180-DESKTOP-QOVO705/realtime/clock_clk_wiz_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clock' (2#1) [C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/uBlaze/ublaze_mcs/ublaze_mcs.srcs/sources_1/bd/clock/synth/clock.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'clock_wrapper' (3#1) [C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/uBlaze/ublaze_mcs/ublaze_mcs.srcs/sources_1/bd/clock/hdl/clock_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'cpu_wrapper' [C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/uBlaze/ublaze_mcs/ublaze_mcs.srcs/sources_1/bd/cpu/hdl/cpu_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'cpu' [C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/uBlaze/ublaze_mcs/ublaze_mcs.srcs/sources_1/bd/cpu/synth/cpu.v:13]
+INFO: [Synth 8-6157] synthesizing module 'cpu_microblaze_mcs_0_0' [C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/uBlaze/ublaze_mcs/ublaze_mcs.runs/synth_1/.Xil/Vivado-10180-DESKTOP-QOVO705/realtime/cpu_microblaze_mcs_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'cpu_microblaze_mcs_0_0' (4#1) [C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/uBlaze/ublaze_mcs/ublaze_mcs.runs/synth_1/.Xil/Vivado-10180-DESKTOP-QOVO705/realtime/cpu_microblaze_mcs_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'cpu' (5#1) [C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/uBlaze/ublaze_mcs/ublaze_mcs.srcs/sources_1/bd/cpu/synth/cpu.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'cpu_wrapper' (6#1) [C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/uBlaze/ublaze_mcs/ublaze_mcs.srcs/sources_1/bd/cpu/hdl/cpu_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'chu_mcs_bridge' [C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/hardware/src/chu_mcs_bridge.sv:1]
 	Parameter BRG_BASE bound to: -1073741824 - type: integer 
 	Parameter DATA_WIDTH bound to: 32 - type: integer 
 	Parameter BYTE_EN bound to: 4 - type: integer 
 	Parameter MMIO_ADDR_W bound to: 21 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'chu_mcs_bridge' (7#1) [C:/FPGA_PROTOTYPING/Microblaze/hardware/src/chu_mcs_bridge.sv:1]
-INFO: [Synth 8-6157] synthesizing module 'mmio_sys_vanilla' [C:/FPGA_PROTOTYPING/Microblaze/hardware/src/mmio_sys_vanilla.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'chu_mcs_bridge' (7#1) [C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/hardware/src/chu_mcs_bridge.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'mmio_sys_vanilla' [C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/hardware/src/mmio_sys_vanilla.sv:1]
 	Parameter N_SW bound to: 16 - type: integer 
 	Parameter N_LED bound to: 6 - type: integer 
 	Parameter ADDR_WIDTH bound to: 21 - type: integer 
@@ -56,20 +56,20 @@ INFO: [Synth 8-6157] synthesizing module 'mmio_sys_vanilla' [C:/FPGA_PROTOTYPING
 	Parameter SLOT_ADDR_WIDTH bound to: 5 - type: integer 
 	Parameter DBIT bound to: 8 - type: integer 
 	Parameter SYS_CLK bound to: 100000000 - type: integer 
-INFO: [Synth 8-6157] synthesizing module 'chu_mmio_controller' [C:/FPGA_PROTOTYPING/Microblaze/hardware/src/chu_mmio_controller.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'chu_mmio_controller' [C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/hardware/src/chu_mmio_controller.sv:1]
 	Parameter MMIO_ADDR_WIDTH bound to: 21 - type: integer 
 	Parameter MMIO_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter NUM_SLOTS bound to: 64 - type: integer 
 	Parameter NUM_SLOT_REGS bound to: 32 - type: integer 
 	Parameter SLOT_ADDR_WIDTH bound to: 5 - type: integer 
 	Parameter NUM_SLOT_WIDTH bound to: 6 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'chu_mmio_controller' (8#1) [C:/FPGA_PROTOTYPING/Microblaze/hardware/src/chu_mmio_controller.sv:1]
-INFO: [Synth 8-6157] synthesizing module 'chu_timer' [C:/FPGA_PROTOTYPING/Microblaze/hardware/src/chu_timer.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'chu_mmio_controller' (8#1) [C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/hardware/src/chu_mmio_controller.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'chu_timer' [C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/hardware/src/chu_timer.sv:1]
 	Parameter ADDR_WIDTH bound to: 5 - type: integer 
 	Parameter DATA_WIDTH bound to: 32 - type: integer 
 	Parameter COUNTER_WIDTH bound to: 48 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'chu_timer' (9#1) [C:/FPGA_PROTOTYPING/Microblaze/hardware/src/chu_timer.sv:1]
-INFO: [Synth 8-6157] synthesizing module 'chu_uart' [C:/FPGA_PROTOTYPING/Microblaze/hardware/src/chu_uart.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'chu_timer' (9#1) [C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/hardware/src/chu_timer.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'chu_uart' [C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/hardware/src/chu_uart.sv:1]
 	Parameter CLK_FREQ bound to: 100000000 - type: integer 
 	Parameter ADDR_WIDTH bound to: 5 - type: integer 
 	Parameter DATA_WIDTH bound to: 32 - type: integer 
@@ -77,49 +77,56 @@ INFO: [Synth 8-6157] synthesizing module 'chu_uart' [C:/FPGA_PROTOTYPING/Microbl
 	Parameter BAUD_WIDTH bound to: 10 - type: integer 
 	Parameter DBIT bound to: 8 - type: integer 
 	Parameter SB_TICK bound to: 16 - type: integer 
-INFO: [Synth 8-6157] synthesizing module 'uart' [C:/FPGA_PROTOTYPING/Microblaze/hardware/src/uart.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'uart' [C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/hardware/src/uart.sv:1]
 	Parameter CLK_FREQ bound to: 100000000 - type: integer 
 	Parameter FIFO_WIDTH bound to: 2 - type: integer 
 	Parameter DBIT bound to: 8 - type: integer 
 	Parameter SB_TICK bound to: 16 - type: integer 
 	Parameter BAUD_WIDTH bound to: 10 - type: integer 
-INFO: [Synth 8-6157] synthesizing module 'baud_gen' [C:/FPGA_PROTOTYPING/Microblaze/hardware/src/baud_gen.sv:16]
+INFO: [Synth 8-6157] synthesizing module 'baud_gen' [C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/hardware/src/baud_gen.sv:16]
 	Parameter CLK_FREQ bound to: 100000000 - type: integer 
 	Parameter BAUD_WIDTH bound to: 10 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'baud_gen' (10#1) [C:/FPGA_PROTOTYPING/Microblaze/hardware/src/baud_gen.sv:16]
-INFO: [Synth 8-6157] synthesizing module 'fifo' [C:/FPGA_PROTOTYPING/Microblaze/hardware/src/fifo.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'baud_gen' (10#1) [C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/hardware/src/baud_gen.sv:16]
+INFO: [Synth 8-6157] synthesizing module 'fifo' [C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/hardware/src/fifo.sv:1]
 	Parameter DATA_WIDTH bound to: 8 - type: integer 
 	Parameter ADDR_WIDTH bound to: 2 - type: integer 
-INFO: [Synth 8-6157] synthesizing module 'fifo_ctrl' [C:/FPGA_PROTOTYPING/Microblaze/hardware/src/fifo_ctrl.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'fifo_ctrl' [C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/hardware/src/fifo_ctrl.sv:1]
 	Parameter ADDR_WIDTH bound to: 2 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'fifo_ctrl' (11#1) [C:/FPGA_PROTOTYPING/Microblaze/hardware/src/fifo_ctrl.sv:1]
-INFO: [Synth 8-6157] synthesizing module 'register_file' [C:/FPGA_PROTOTYPING/Microblaze/hardware/src/register_file.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_ctrl' (11#1) [C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/hardware/src/fifo_ctrl.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'register_file' [C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/hardware/src/register_file.sv:1]
 	Parameter DATA_WIDTH bound to: 8 - type: integer 
 	Parameter ADDR_WIDTH bound to: 2 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'register_file' (12#1) [C:/FPGA_PROTOTYPING/Microblaze/hardware/src/register_file.sv:1]
-INFO: [Synth 8-6155] done synthesizing module 'fifo' (13#1) [C:/FPGA_PROTOTYPING/Microblaze/hardware/src/fifo.sv:1]
-INFO: [Synth 8-6157] synthesizing module 'uart_rx' [C:/FPGA_PROTOTYPING/Microblaze/hardware/src/uart_rx.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'register_file' (12#1) [C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/hardware/src/register_file.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'fifo' (13#1) [C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/hardware/src/fifo.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'uart_rx' [C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/hardware/src/uart_rx.sv:1]
 	Parameter DBIT bound to: 8 - type: integer 
 	Parameter SB_TICK bound to: 16 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'uart_rx' (14#1) [C:/FPGA_PROTOTYPING/Microblaze/hardware/src/uart_rx.sv:1]
-INFO: [Synth 8-6157] synthesizing module 'uart_tx' [C:/FPGA_PROTOTYPING/Microblaze/hardware/src/uart_tx.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'uart_rx' (14#1) [C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/hardware/src/uart_rx.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'uart_tx' [C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/hardware/src/uart_tx.sv:1]
 	Parameter DBIT bound to: 8 - type: integer 
 	Parameter SB_TICK bound to: 16 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'uart_tx' (15#1) [C:/FPGA_PROTOTYPING/Microblaze/hardware/src/uart_tx.sv:1]
-INFO: [Synth 8-6155] done synthesizing module 'uart' (16#1) [C:/FPGA_PROTOTYPING/Microblaze/hardware/src/uart.sv:1]
-INFO: [Synth 8-6155] done synthesizing module 'chu_uart' (17#1) [C:/FPGA_PROTOTYPING/Microblaze/hardware/src/chu_uart.sv:1]
-INFO: [Synth 8-6157] synthesizing module 'chu_gpo' [C:/FPGA_PROTOTYPING/Microblaze/hardware/src/chu_gpo.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'uart_tx' (15#1) [C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/hardware/src/uart_tx.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'uart' (16#1) [C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/hardware/src/uart.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'chu_uart' (17#1) [C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/hardware/src/chu_uart.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'chu_gpo' [C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/hardware/src/chu_gpo.sv:1]
 	Parameter ADDR_WIDTH bound to: 5 - type: integer 
 	Parameter DATA_WIDTH bound to: 32 - type: integer 
 	Parameter OUT_WIDTH bound to: 6 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'chu_gpo' (18#1) [C:/FPGA_PROTOTYPING/Microblaze/hardware/src/chu_gpo.sv:1]
-INFO: [Synth 8-6157] synthesizing module 'chu_gpi' [C:/FPGA_PROTOTYPING/Microblaze/hardware/src/chu_gpi.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'chu_gpo' (18#1) [C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/hardware/src/chu_gpo.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'chu_gpi' [C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/hardware/src/chu_gpi.sv:1]
 	Parameter ADDR_WIDTH bound to: 5 - type: integer 
 	Parameter DATA_WIDTH bound to: 32 - type: integer 
 	Parameter IN_WIDTH bound to: 16 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'chu_gpi' (19#1) [C:/FPGA_PROTOTYPING/Microblaze/hardware/src/chu_gpi.sv:1]
-INFO: [Synth 8-6155] done synthesizing module 'mmio_sys_vanilla' (20#1) [C:/FPGA_PROTOTYPING/Microblaze/hardware/src/mmio_sys_vanilla.sv:1]
-INFO: [Synth 8-6155] done synthesizing module 'mcs_top_vanilla' (21#1) [C:/FPGA_PROTOTYPING/Microblaze/hardware/src/mcs_top_vanilla.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'chu_gpi' (19#1) [C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/hardware/src/chu_gpi.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'chu_io_pwm_core' [C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/hardware/src/chu_io_pwm_core.sv:1]
+	Parameter R bound to: 10 - type: integer 
+	Parameter DATA_WIDTH bound to: 32 - type: integer 
+	Parameter ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter NUM_PWM bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'chu_io_pwm_core' (20#1) [C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/hardware/src/chu_io_pwm_core.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'mmio_sys_vanilla' (21#1) [C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/hardware/src/mmio_sys_vanilla.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'mcs_top_vanilla' (22#1) [C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/hardware/src/mcs_top_vanilla.sv:1]
+WARNING: [Synth 8-3331] design chu_io_pwm_core has unconnected port rd_en
 WARNING: [Synth 8-3331] design chu_gpi has unconnected port wr_en
 WARNING: [Synth 8-3331] design chu_gpi has unconnected port addr[4]
 WARNING: [Synth 8-3331] design chu_gpi has unconnected port addr[3]
@@ -219,10 +226,9 @@ WARNING: [Synth 8-3331] design chu_timer has unconnected port rd_en
 WARNING: [Synth 8-3331] design chu_timer has unconnected port addr[4]
 WARNING: [Synth 8-3331] design chu_timer has unconnected port addr[3]
 WARNING: [Synth 8-3331] design chu_timer has unconnected port addr[2]
-WARNING: [Synth 8-3331] design chu_timer has unconnected port wdata[31]
 INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 520.102 ; gain = 157.051
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 519.785 ; gain = 156.254
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -235,55 +241,55 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 520.102 ; gain = 157.051
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 519.785 ; gain = 156.254
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 520.102 ; gain = 157.051
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 519.785 ; gain = 156.254
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a35tfgg484-2
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [c:/FPGA_PROTOTYPING/Microblaze/uBlaze/ublaze_mcs/ublaze_mcs.srcs/sources_1/bd/cpu/ip/cpu_microblaze_mcs_0_0/cpu_microblaze_mcs_0_0/cpu_microblaze_mcs_0_0_in_context.xdc] for cell 'u_cpu_unit/cpu_i/microblaze_mcs_0'
-Finished Parsing XDC File [c:/FPGA_PROTOTYPING/Microblaze/uBlaze/ublaze_mcs/ublaze_mcs.srcs/sources_1/bd/cpu/ip/cpu_microblaze_mcs_0_0/cpu_microblaze_mcs_0_0/cpu_microblaze_mcs_0_0_in_context.xdc] for cell 'u_cpu_unit/cpu_i/microblaze_mcs_0'
-Parsing XDC File [c:/FPGA_PROTOTYPING/Microblaze/uBlaze/ublaze_mcs/ublaze_mcs.srcs/sources_1/bd/clock/ip/clock_clk_wiz_0_0/clock_clk_wiz_0_0/clock_clk_wiz_0_0_in_context.xdc] for cell 'u_clock_gen/clock_i/clk_wiz_0'
-Finished Parsing XDC File [c:/FPGA_PROTOTYPING/Microblaze/uBlaze/ublaze_mcs/ublaze_mcs.srcs/sources_1/bd/clock/ip/clock_clk_wiz_0_0/clock_clk_wiz_0_0/clock_clk_wiz_0_0_in_context.xdc] for cell 'u_clock_gen/clock_i/clk_wiz_0'
-Parsing XDC File [C:/FPGA_PROTOTYPING/Microblaze/hardware/constraints.xdc]
-Finished Parsing XDC File [C:/FPGA_PROTOTYPING/Microblaze/hardware/constraints.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/FPGA_PROTOTYPING/Microblaze/hardware/constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/mcs_top_vanilla_propImpl.xdc].
+Parsing XDC File [c:/FPGA_PROTOTYPING/uBlaze_mmio_ss/uBlaze/ublaze_mcs/ublaze_mcs.srcs/sources_1/bd/cpu/ip/cpu_microblaze_mcs_0_0/cpu_microblaze_mcs_0_0/cpu_microblaze_mcs_0_0_in_context.xdc] for cell 'u_cpu_unit/cpu_i/microblaze_mcs_0'
+Finished Parsing XDC File [c:/FPGA_PROTOTYPING/uBlaze_mmio_ss/uBlaze/ublaze_mcs/ublaze_mcs.srcs/sources_1/bd/cpu/ip/cpu_microblaze_mcs_0_0/cpu_microblaze_mcs_0_0/cpu_microblaze_mcs_0_0_in_context.xdc] for cell 'u_cpu_unit/cpu_i/microblaze_mcs_0'
+Parsing XDC File [c:/FPGA_PROTOTYPING/uBlaze_mmio_ss/uBlaze/ublaze_mcs/ublaze_mcs.srcs/sources_1/bd/clock/ip/clock_clk_wiz_0_0/clock_clk_wiz_0_0/clock_clk_wiz_0_0_in_context.xdc] for cell 'u_clock_gen/clock_i/clk_wiz_0'
+Finished Parsing XDC File [c:/FPGA_PROTOTYPING/uBlaze_mmio_ss/uBlaze/ublaze_mcs/ublaze_mcs.srcs/sources_1/bd/clock/ip/clock_clk_wiz_0_0/clock_clk_wiz_0_0/clock_clk_wiz_0_0_in_context.xdc] for cell 'u_clock_gen/clock_i/clk_wiz_0'
+Parsing XDC File [C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/hardware/constraints.xdc]
+Finished Parsing XDC File [C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/hardware/constraints.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/hardware/constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/mcs_top_vanilla_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/mcs_top_vanilla_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
-Parsing XDC File [C:/FPGA_PROTOTYPING/Microblaze/uBlaze/ublaze_mcs/ublaze_mcs.runs/synth_1/dont_touch.xdc]
-Finished Parsing XDC File [C:/FPGA_PROTOTYPING/Microblaze/uBlaze/ublaze_mcs/ublaze_mcs.runs/synth_1/dont_touch.xdc]
+Parsing XDC File [C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/uBlaze/ublaze_mcs/ublaze_mcs.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/uBlaze/ublaze_mcs/ublaze_mcs.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 844.234 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 845.188 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 844.234 ; gain = 481.184
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 845.188 ; gain = 481.656
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tfgg484-2
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 844.234 ; gain = 481.184
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 845.188 ; gain = 481.656
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property IO_BUFFER_TYPE = NONE for sys_clk_n. (constraint file  c:/FPGA_PROTOTYPING/Microblaze/uBlaze/ublaze_mcs/ublaze_mcs.srcs/sources_1/bd/clock/ip/clock_clk_wiz_0_0/clock_clk_wiz_0_0/clock_clk_wiz_0_0_in_context.xdc, line 3).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for sys_clk_n. (constraint file  c:/FPGA_PROTOTYPING/Microblaze/uBlaze/ublaze_mcs/ublaze_mcs.srcs/sources_1/bd/clock/ip/clock_clk_wiz_0_0/clock_clk_wiz_0_0/clock_clk_wiz_0_0_in_context.xdc, line 4).
-Applied set_property IO_BUFFER_TYPE = NONE for sys_clk_p. (constraint file  c:/FPGA_PROTOTYPING/Microblaze/uBlaze/ublaze_mcs/ublaze_mcs.srcs/sources_1/bd/clock/ip/clock_clk_wiz_0_0/clock_clk_wiz_0_0/clock_clk_wiz_0_0_in_context.xdc, line 5).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for sys_clk_p. (constraint file  c:/FPGA_PROTOTYPING/Microblaze/uBlaze/ublaze_mcs/ublaze_mcs.srcs/sources_1/bd/clock/ip/clock_clk_wiz_0_0/clock_clk_wiz_0_0/clock_clk_wiz_0_0_in_context.xdc, line 6).
+Applied set_property IO_BUFFER_TYPE = NONE for sys_clk_n. (constraint file  c:/FPGA_PROTOTYPING/uBlaze_mmio_ss/uBlaze/ublaze_mcs/ublaze_mcs.srcs/sources_1/bd/clock/ip/clock_clk_wiz_0_0/clock_clk_wiz_0_0/clock_clk_wiz_0_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for sys_clk_n. (constraint file  c:/FPGA_PROTOTYPING/uBlaze_mmio_ss/uBlaze/ublaze_mcs/ublaze_mcs.srcs/sources_1/bd/clock/ip/clock_clk_wiz_0_0/clock_clk_wiz_0_0/clock_clk_wiz_0_0_in_context.xdc, line 4).
+Applied set_property IO_BUFFER_TYPE = NONE for sys_clk_p. (constraint file  c:/FPGA_PROTOTYPING/uBlaze_mmio_ss/uBlaze/ublaze_mcs/ublaze_mcs.srcs/sources_1/bd/clock/ip/clock_clk_wiz_0_0/clock_clk_wiz_0_0/clock_clk_wiz_0_0_in_context.xdc, line 5).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for sys_clk_p. (constraint file  c:/FPGA_PROTOTYPING/uBlaze_mmio_ss/uBlaze/ublaze_mcs/ublaze_mcs.srcs/sources_1/bd/clock/ip/clock_clk_wiz_0_0/clock_clk_wiz_0_0/clock_clk_wiz_0_0_in_context.xdc, line 6).
 Applied set_property DONT_TOUCH = true for u_cpu_unit/cpu_i. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for u_cpu_unit/cpu_i/microblaze_mcs_0. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for u_clock_gen/clock_i. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for u_clock_gen/clock_i/clk_wiz_0. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 844.234 ; gain = 481.184
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 845.188 ; gain = 481.656
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5544] ROM "reg_file_reg[0]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "reg_file_reg[1]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
@@ -306,6 +312,14 @@ INFO: [Synth 8-5544] ROM "s_next" won't be mapped to Block RAM because address s
 INFO: [Synth 8-5544] ROM "n_next" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
 INFO: [Synth 8-5545] ROM "tx_next" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 INFO: [Synth 8-5545] ROM "NS" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "duty_2d_arr_reg[7]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "duty_2d_arr_reg[6]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "duty_2d_arr_reg[5]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "duty_2d_arr_reg[4]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "duty_2d_arr_reg[3]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "duty_2d_arr_reg[2]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "duty_2d_arr_reg[1]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "duty_2d_arr_reg[0]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
 ---------------------------------------------------------------------------------------------------
                    State |                     New Encoding |                Previous Encoding 
 ---------------------------------------------------------------------------------------------------
@@ -325,7 +339,7 @@ INFO: [Synth 8-3354] encoded FSM with state register 'CS_reg' using encoding 'se
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'CS_reg' using encoding 'sequential' in module 'uart_tx'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 844.234 ; gain = 481.184
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 845.188 ; gain = 481.656
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -339,15 +353,17 @@ Start RTL Component Statistics
 Detailed RTL Component Info : 
 +---Adders : 
 	   2 Input     48 Bit       Adders := 1     
-	   2 Input     10 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 2     
 	   2 Input      4 Bit       Adders := 2     
 	   2 Input      3 Bit       Adders := 2     
 	   2 Input      2 Bit       Adders := 4     
 +---Registers : 
 	               48 Bit    Registers := 1     
+	               32 Bit    Registers := 1     
 	               16 Bit    Registers := 1     
-	               10 Bit    Registers := 2     
-	                8 Bit    Registers := 12    
+	               11 Bit    Registers := 8     
+	               10 Bit    Registers := 3     
+	                8 Bit    Registers := 13    
 	                6 Bit    Registers := 1     
 	                4 Bit    Registers := 2     
 	                3 Bit    Registers := 2     
@@ -359,11 +375,12 @@ Detailed RTL Component Info :
 	   2 Input     32 Bit        Muxes := 1     
 	   2 Input     10 Bit        Muxes := 1     
 	   4 Input      8 Bit        Muxes := 3     
+	   2 Input      6 Bit        Muxes := 1     
 	   2 Input      4 Bit        Muxes := 3     
 	   4 Input      4 Bit        Muxes := 2     
 	   4 Input      3 Bit        Muxes := 2     
 	   4 Input      2 Bit        Muxes := 2     
-	   2 Input      1 Bit        Muxes := 20    
+	   2 Input      1 Bit        Muxes := 28    
 	   4 Input      1 Bit        Muxes := 23    
 	   3 Input      1 Bit        Muxes := 3     
 ---------------------------------------------------------------------------------
@@ -464,6 +481,21 @@ Module chu_gpi
 Detailed RTL Component Info : 
 +---Registers : 
 	               16 Bit    Registers := 1     
+Module chu_io_pwm_core 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               11 Bit    Registers := 8     
+	               10 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 8     
+Module mmio_sys_vanilla 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      6 Bit        Muxes := 1     
 ---------------------------------------------------------------------------------
 Finished RTL Hierarchical Component Statistics
 ---------------------------------------------------------------------------------
@@ -480,8 +512,32 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3332] Sequential element (u_mmio_unit/u_pwm_slot6/duty_2d_arr_reg[6][10]) is unused and will be removed from module mcs_top_vanilla.
+WARNING: [Synth 8-3332] Sequential element (u_mmio_unit/u_pwm_slot6/duty_2d_arr_reg[6][9]) is unused and will be removed from module mcs_top_vanilla.
+WARNING: [Synth 8-3332] Sequential element (u_mmio_unit/u_pwm_slot6/duty_2d_arr_reg[6][8]) is unused and will be removed from module mcs_top_vanilla.
+WARNING: [Synth 8-3332] Sequential element (u_mmio_unit/u_pwm_slot6/duty_2d_arr_reg[6][7]) is unused and will be removed from module mcs_top_vanilla.
+WARNING: [Synth 8-3332] Sequential element (u_mmio_unit/u_pwm_slot6/duty_2d_arr_reg[6][6]) is unused and will be removed from module mcs_top_vanilla.
+WARNING: [Synth 8-3332] Sequential element (u_mmio_unit/u_pwm_slot6/duty_2d_arr_reg[6][5]) is unused and will be removed from module mcs_top_vanilla.
+WARNING: [Synth 8-3332] Sequential element (u_mmio_unit/u_pwm_slot6/duty_2d_arr_reg[6][4]) is unused and will be removed from module mcs_top_vanilla.
+WARNING: [Synth 8-3332] Sequential element (u_mmio_unit/u_pwm_slot6/duty_2d_arr_reg[6][3]) is unused and will be removed from module mcs_top_vanilla.
+WARNING: [Synth 8-3332] Sequential element (u_mmio_unit/u_pwm_slot6/duty_2d_arr_reg[6][2]) is unused and will be removed from module mcs_top_vanilla.
+WARNING: [Synth 8-3332] Sequential element (u_mmio_unit/u_pwm_slot6/duty_2d_arr_reg[6][1]) is unused and will be removed from module mcs_top_vanilla.
+WARNING: [Synth 8-3332] Sequential element (u_mmio_unit/u_pwm_slot6/duty_2d_arr_reg[6][0]) is unused and will be removed from module mcs_top_vanilla.
+WARNING: [Synth 8-3332] Sequential element (u_mmio_unit/u_pwm_slot6/duty_2d_arr_reg[7][10]) is unused and will be removed from module mcs_top_vanilla.
+WARNING: [Synth 8-3332] Sequential element (u_mmio_unit/u_pwm_slot6/duty_2d_arr_reg[7][9]) is unused and will be removed from module mcs_top_vanilla.
+WARNING: [Synth 8-3332] Sequential element (u_mmio_unit/u_pwm_slot6/duty_2d_arr_reg[7][8]) is unused and will be removed from module mcs_top_vanilla.
+WARNING: [Synth 8-3332] Sequential element (u_mmio_unit/u_pwm_slot6/duty_2d_arr_reg[7][7]) is unused and will be removed from module mcs_top_vanilla.
+WARNING: [Synth 8-3332] Sequential element (u_mmio_unit/u_pwm_slot6/duty_2d_arr_reg[7][6]) is unused and will be removed from module mcs_top_vanilla.
+WARNING: [Synth 8-3332] Sequential element (u_mmio_unit/u_pwm_slot6/duty_2d_arr_reg[7][5]) is unused and will be removed from module mcs_top_vanilla.
+WARNING: [Synth 8-3332] Sequential element (u_mmio_unit/u_pwm_slot6/duty_2d_arr_reg[7][4]) is unused and will be removed from module mcs_top_vanilla.
+WARNING: [Synth 8-3332] Sequential element (u_mmio_unit/u_pwm_slot6/duty_2d_arr_reg[7][3]) is unused and will be removed from module mcs_top_vanilla.
+WARNING: [Synth 8-3332] Sequential element (u_mmio_unit/u_pwm_slot6/duty_2d_arr_reg[7][2]) is unused and will be removed from module mcs_top_vanilla.
+WARNING: [Synth 8-3332] Sequential element (u_mmio_unit/u_pwm_slot6/duty_2d_arr_reg[7][1]) is unused and will be removed from module mcs_top_vanilla.
+WARNING: [Synth 8-3332] Sequential element (u_mmio_unit/u_pwm_slot6/duty_2d_arr_reg[7][0]) is unused and will be removed from module mcs_top_vanilla.
+WARNING: [Synth 8-3332] Sequential element (u_mmio_unit/u_pwm_slot6/pwm_reg_reg[7]) is unused and will be removed from module mcs_top_vanilla.
+WARNING: [Synth 8-3332] Sequential element (u_mmio_unit/u_pwm_slot6/pwm_reg_reg[6]) is unused and will be removed from module mcs_top_vanilla.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 844.234 ; gain = 481.184
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 845.188 ; gain = 481.656
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -495,13 +551,13 @@ Start Applying XDC Timing Constraints
 INFO: [Synth 8-5578] Moved timing constraint from pin 'u_clock_gen/clock_i/clk_wiz_0/clk_out1' to pin 'u_clock_gen/clock_i/clk_wiz_0/bbstub_clk_out1/O'
 INFO: [Synth 8-5819] Moved 1 constraints on hierarchical pins to their respective driving/loading pins
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 844.234 ; gain = 481.184
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 847.223 ; gain = 483.691
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 872.387 ; gain = 509.336
+Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 881.910 ; gain = 518.379
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -513,7 +569,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 877.094 ; gain = 514.043
+Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 890.988 ; gain = 527.457
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -537,7 +593,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 877.094 ; gain = 514.043
+Finished IO Insertion : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 890.988 ; gain = 527.457
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -550,7 +606,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 877.094 ; gain = 514.043
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 890.988 ; gain = 527.457
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -562,25 +618,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 877.094 ; gain = 514.043
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 890.988 ; gain = 527.457
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 877.094 ; gain = 514.043
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 890.988 ; gain = 527.457
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 877.094 ; gain = 514.043
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 890.988 ; gain = 527.457
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 877.094 ; gain = 514.043
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 890.988 ; gain = 527.457
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -600,14 +656,14 @@ Report Cell Usage:
 +------+-----------------------+------+
 |1     |clock_clk_wiz_0_0      |     1|
 |2     |cpu_microblaze_mcs_0_0 |     1|
-|3     |CARRY4                 |    13|
-|4     |LUT1                   |     2|
-|5     |LUT2                   |    76|
-|6     |LUT3                   |    18|
-|7     |LUT4                   |    29|
-|8     |LUT5                   |    46|
-|9     |LUT6                   |    57|
-|10    |FDCE                   |   215|
+|3     |CARRY4                 |    36|
+|4     |LUT1                   |     8|
+|5     |LUT2                   |    95|
+|6     |LUT3                   |    34|
+|7     |LUT4                   |    90|
+|8     |LUT5                   |    50|
+|9     |LUT6                   |    97|
+|10    |FDCE                   |   361|
 |11    |FDPE                   |     3|
 |12    |IBUF                   |    18|
 |13    |OBUF                   |     7|
@@ -617,35 +673,36 @@ Report Instance Areas:
 +------+----------------------+-----------------+------+
 |      |Instance              |Module           |Cells |
 +------+----------------------+-----------------+------+
-|1     |top                   |                 |   557|
-|2     |  u_clock_gen         |clock_wrapper    |     6|
+|1     |top                   |                 |   872|
+|2     |  u_clock_gen         |clock_wrapper    |     7|
 |3     |    clock_i           |clock            |     2|
-|4     |  u_cpu_unit          |cpu_wrapper      |   180|
+|4     |  u_cpu_unit          |cpu_wrapper      |   149|
 |5     |    cpu_i             |cpu              |    71|
-|6     |  u_mmio_unit         |mmio_sys_vanilla |   346|
+|6     |  u_mmio_unit         |mmio_sys_vanilla |   691|
 |7     |    u_led_slot2       |chu_gpo          |     6|
-|8     |    u_sw_slot3        |chu_gpi          |    16|
-|9     |    u_timer_slot0     |chu_timer        |    62|
-|10    |    u_uart_slot1      |chu_uart         |   262|
-|11    |      u_uart          |uart             |   252|
-|12    |        u_baud_gen    |baud_gen         |    32|
-|13    |        u_rx_fifo     |fifo             |    66|
-|14    |          u_fifo_ctrl |fifo_ctrl_1      |    18|
-|15    |          u_reg_file  |register_file_2  |    40|
-|16    |        u_tx_fifo     |fifo_0           |    67|
-|17    |          u_fifo_ctrl |fifo_ctrl        |    18|
-|18    |          u_reg_file  |register_file    |    40|
-|19    |        u_uart_rx     |uart_rx          |    38|
-|20    |        u_uart_tx     |uart_tx          |    49|
+|8     |    u_pwm_slot6       |chu_io_pwm_core  |   299|
+|9     |    u_sw_slot3        |chu_gpi          |    16|
+|10    |    u_timer_slot0     |chu_timer        |   110|
+|11    |    u_uart_slot1      |chu_uart         |   254|
+|12    |      u_uart          |uart             |   244|
+|13    |        u_baud_gen    |baud_gen         |    32|
+|14    |        u_rx_fifo     |fifo             |    66|
+|15    |          u_fifo_ctrl |fifo_ctrl_1      |    18|
+|16    |          u_reg_file  |register_file_2  |    40|
+|17    |        u_tx_fifo     |fifo_0           |    67|
+|18    |          u_fifo_ctrl |fifo_ctrl        |    18|
+|19    |          u_reg_file  |register_file    |    40|
+|20    |        u_uart_rx     |uart_rx          |    38|
+|21    |        u_uart_tx     |uart_tx          |    41|
 +------+----------------------+-----------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 877.094 ; gain = 514.043
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 890.988 ; gain = 527.457
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 12 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 877.094 ; gain = 189.910
-Synthesis Optimization Complete : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 877.094 ; gain = 514.043
+Synthesis finished with 0 errors, 0 critical warnings and 36 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 890.988 ; gain = 202.055
+Synthesis Optimization Complete : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 890.988 ; gain = 527.457
 INFO: [Project 1-571] Translating synthesized netlist
-INFO: [Netlist 29-17] Analyzing 31 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 54 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
@@ -653,11 +710,11 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-83 Infos, 100 Warnings, 0 Critical Warnings and 0 Errors encountered.
+93 Infos, 124 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 877.094 ; gain = 519.035
+synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:23 . Memory (MB): peak = 890.988 ; gain = 532.426
 WARNING: [Constraints 18-5210] No constraint will be written out.
-INFO: [Common 17-1381] The checkpoint 'C:/FPGA_PROTOTYPING/Microblaze/uBlaze/ublaze_mcs/ublaze_mcs.runs/synth_1/mcs_top_vanilla.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint 'C:/FPGA_PROTOTYPING/uBlaze_mmio_ss/uBlaze/ublaze_mcs/ublaze_mcs.runs/synth_1/mcs_top_vanilla.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file mcs_top_vanilla_utilization_synth.rpt -pb mcs_top_vanilla_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 877.094 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Mon Mar 16 10:05:50 2026...
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 890.988 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sun Mar 29 10:54:52 2026...
