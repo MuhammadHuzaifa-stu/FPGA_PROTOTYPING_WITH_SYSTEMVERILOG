@@ -32,3 +32,24 @@ public:
 private:
     uint32_t base_addr;
 };
+
+class PwmCore {
+    // register map
+    enum {
+        DVSR_REG      = 0x00; // word address
+        DUTY_REG_BASE = 0x40; // word address
+    };
+    enum {
+        RESOLUTION_BITS = 10;
+        MAX             = 1 << RESOLUTION_BITS;
+    };
+public:
+    PwmCore(uint32_t core_base_addr);       // constructor
+    ~PwmCore();                             // destructor; not used
+    // methods
+    void set_freq(int freq);              ;
+    void set_duty(int duty, int channel);      // duty: 0 ~ 1023; ch: 0 ~ 8
+    void set_duty(double f, int channel);     // f: 0.0 ~ 1.0; ch: 0 ~ 8
+private:
+    uint32_t base_addr;
+};

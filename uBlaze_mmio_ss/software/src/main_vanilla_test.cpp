@@ -189,9 +189,32 @@ void timer_display() {
     }
 }
 
+// PWM TEST
+void pwm_3color_led_check(PwmCore *pwm_p) {
+    int i, n;
+    double bright, duty;
+    const double P20 = 1.2589; // P20=100^(1/20) for 20 steps of brightness control
+
+    pwm_p->set_freq(50); // Set frequency to 50 Hz for visible LED dimming
+    for (n=0; n<3; n++) {
+        bright = 1.0;
+        for (i=0; i<20; i++) {
+            bright = bright * P20;
+            duty = bright / 100;
+            pwm_p->set_duty(duty, n); // Set duty cycle for channel n
+            pwm_p->set_duty(duty, n+3);
+            sleep_ms(100);
+        }
+        sleep_ms(300);
+        pwm_p->set_duty(0, n); // Turn off the LED
+        pwm_p->set_duty(0, n+3);
+    }
+}
+
 // instantiate witch, led
 GpoCore led(get_slot_addr(BRIDGE_BASE, S2_LED));
 GpiCore sw(get_slot_addr(BRIDGE_BASE, S3_SW));
+PwmCore pwm(get_slot_addr(BRIDGE_BASE, S6_PWM));
 
 int main() {
     while(1) {
