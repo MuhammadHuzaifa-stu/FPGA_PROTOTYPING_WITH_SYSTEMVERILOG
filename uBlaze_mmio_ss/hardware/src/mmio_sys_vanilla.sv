@@ -5,6 +5,8 @@ module mmio_sys_vanilla
     import chu_io_pkg::S1_UART1;
     import chu_io_pkg::S2_LED;
     import chu_io_pkg::S3_SW;
+    import chu_io_pkg::S4_USER;
+    import chu_io_pkg::S5_ADC;
     import chu_io_pkg::S6_PWM;
     import chu_io_pkg::PWM_RESOLTUIN;
     import chu_io_pkg::PWM_CHANNELS;
@@ -149,7 +151,7 @@ module mmio_sys_vanilla
         .DATA_WIDTH ( DATA_WIDTH      ),
         .ADDR_WIDTH ( SLOT_ADDR_WIDTH ),
         .NUM_PWM    ( PWM_CHANNELS    )
-    ) u_sw_slot3 (
+    ) u_pwm_slot6 (
         .clk    ( clk                         ),
         .arst_n ( arst_n                      ),
         .cs     ( slot_cs_array      [S6_PWM] ),
@@ -160,6 +162,9 @@ module mmio_sys_vanilla
         .rdata  ( slot_rdata_array   [S6_PWM] ),
         .pwm_out( pwm                         )
     );
+    
+    assign slot_rdata_array[S4_USER] = 'd0; // Not used yet
+    assign slot_rdata_array[S5_ADC ] = 'd0; // Not used yet
 
     // assign zero's to remaining unsed slots to avoid latches
     generate

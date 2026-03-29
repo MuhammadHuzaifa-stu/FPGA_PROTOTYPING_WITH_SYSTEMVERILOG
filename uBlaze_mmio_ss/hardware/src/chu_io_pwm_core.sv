@@ -46,7 +46,7 @@ module chu_io_pwm_core #(
     assign dvsr_en     = cs && wr_en && (addr == 'd0);
 
     always_ff @(posedge clk or negedge arst_n) 
-    begin : dvsr_reg
+    begin : dvsr_reg_blk
         if (!arst_n)
         begin
             dvsr_reg <= 'd0;
@@ -57,22 +57,20 @@ module chu_io_pwm_core #(
         end
     end
 
-    generate
-        always_ff @(posedge clk or negedge arst_n) 
-        begin : duty_cycle_reg_array
-            if (!arst_n)
+    always_ff @(posedge clk or negedge arst_n) 
+    begin : duty_cycle_reg_array
+        if (!arst_n)
+        begin
+            for (int i = 0; i < NUM_PWM; i++) 
             begin
-                for (genvar i = 0; i < NUM_PWM; i++) 
-                begin
-                    duty_2d_arr[i] <= 'd0;
-                end
-            end 
-            else if (duty_arr_en)
-            begin
-                duty_2d_arr[addr[ADDR_WIDTH-3:0]] <= wdata[R:0];
+                duty_2d_arr[i] <= 'd0;
             end
-        end        
-    endgenerate
+        end 
+        else if (duty_arr_en)
+        begin
+            duty_2d_arr[addr[ADDR_WIDTH-3:0]] <= wdata[R:0];
+        end
+    end        
 
     always_ff @(posedge clk or negedge arst_n) 
     begin : duty_cycle_reg
