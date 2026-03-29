@@ -197,3 +197,2362 @@ mb-size mmio_ss_test.elf  |tee "mmio_ss_test.elf.size"
 13:39:57 **** Incremental Build of configuration Debug for project mmio_ss_test ****
 make all 
 make: Nothing to be done for `all'.
+11:57:24 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+'Finished building: ../src/main_vanilla_test.cpp'
+' '
+'Building target: mmio_ss_test.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mmio_ss_test.elf"  ./src/TimerCore.o ./src/chu_init.o ./src/gpio_core.o ./src/main_vanilla_test.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: mmio_ss_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mmio_ss_test.elf  |tee "mmio_ss_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12000	    288	   3136	  15424	   3c40	mmio_ss_test.elf
+'Finished building: mmio_ss_test.elf.size'
+' '
+11:59:02 **** Incremental Build of configuration Debug for project mmio_ss_test ****
+make all 
+make: Nothing to be done for `all'.
+12:02:23 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+'Finished building: ../src/main_vanilla_test.cpp'
+' '
+'Building target: mmio_ss_test.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mmio_ss_test.elf"  ./src/TimerCore.o ./src/chu_init.o ./src/gpio_core.o ./src/main_vanilla_test.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: mmio_ss_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mmio_ss_test.elf  |tee "mmio_ss_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12348	    288	   3140	  15776	   3da0	mmio_ss_test.elf
+'Finished building: mmio_ss_test.elf.size'
+' '
+12:02:28 **** Incremental Build of configuration Debug for project mmio_ss_test ****
+make all 
+make: Nothing to be done for `all'.
+12:05:27 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+'Finished building: ../src/main_vanilla_test.cpp'
+' '
+'Building target: mmio_ss_test.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mmio_ss_test.elf"  ./src/TimerCore.o ./src/chu_init.o ./src/gpio_core.o ./src/main_vanilla_test.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: mmio_ss_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mmio_ss_test.elf  |tee "mmio_ss_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12188	    288	   3140	  15616	   3d00	mmio_ss_test.elf
+'Finished building: mmio_ss_test.elf.size'
+' '
+12:05:37 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+'Finished building: ../src/main_vanilla_test.cpp'
+' '
+'Building target: mmio_ss_test.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mmio_ss_test.elf"  ./src/TimerCore.o ./src/chu_init.o ./src/gpio_core.o ./src/main_vanilla_test.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: mmio_ss_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mmio_ss_test.elf  |tee "mmio_ss_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12188	    288	   3140	  15616	   3d00	mmio_ss_test.elf
+'Finished building: mmio_ss_test.elf.size'
+' '
+12:05:41 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+'Finished building: ../src/main_vanilla_test.cpp'
+' '
+'Building target: mmio_ss_test.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mmio_ss_test.elf"  ./src/TimerCore.o ./src/chu_init.o ./src/gpio_core.o ./src/main_vanilla_test.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: mmio_ss_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mmio_ss_test.elf  |tee "mmio_ss_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12052	    288	   3140	  15480	   3c78	mmio_ss_test.elf
+'Finished building: mmio_ss_test.elf.size'
+' '
+12:05:43 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+'Finished building: ../src/main_vanilla_test.cpp'
+' '
+'Building target: mmio_ss_test.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mmio_ss_test.elf"  ./src/TimerCore.o ./src/chu_init.o ./src/gpio_core.o ./src/main_vanilla_test.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: mmio_ss_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mmio_ss_test.elf  |tee "mmio_ss_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12028	    288	   3140	  15456	   3c60	mmio_ss_test.elf
+'Finished building: mmio_ss_test.elf.size'
+' '
+12:05:48 **** Incremental Build of configuration Debug for project mmio_ss_test ****
+make all 
+make: Nothing to be done for `all'.
+12:40:42 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+../src/main_vanilla_test.cpp: In function 'void collision_led(GpoCore*, GpiCore*)':
+../src/main_vanilla_test.cpp:117:26: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (now - last_tick1 > speed1) {
+         ~~~~~~~~~~~~~~~~~^~~~~~~~
+../src/main_vanilla_test.cpp:127:26: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (now - last_tick2 > speed2) {
+         ~~~~~~~~~~~~~~~~~^~~~~~~~
+../src/main_vanilla_test.cpp: In function 'int main()':
+../src/main_vanilla_test.cpp:156:36: error: too many arguments to function 'void collision_led(GpoCore*, GpiCore*)'
+          collision_led(&led, &sw, 6);
+                                    ^
+../src/main_vanilla_test.cpp:98:6: note: declared here
+ void collision_led(GpoCore *led_p, GpiCore *sw_p) {
+      ^~~~~~~~~~~~~
+make: *** [src/main_vanilla_test.o] Error 1
+12:40:58 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+../src/main_vanilla_test.cpp: In function 'void collision_led(GpoCore*, GpiCore*)':
+../src/main_vanilla_test.cpp:117:26: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (now - last_tick1 > speed1) {
+         ~~~~~~~~~~~~~~~~~^~~~~~~~
+../src/main_vanilla_test.cpp:127:26: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (now - last_tick2 > speed2) {
+         ~~~~~~~~~~~~~~~~~^~~~~~~~
+../src/main_vanilla_test.cpp: In function 'int main()':
+../src/main_vanilla_test.cpp:156:32: error: too many arguments to function 'void collision_led(GpoCore*, GpiCore*)'
+      collision_led(&led, &sw, 6);
+                                ^
+../src/main_vanilla_test.cpp:98:6: note: declared here
+ void collision_led(GpoCore *led_p, GpiCore *sw_p) {
+      ^~~~~~~~~~~~~
+make: *** [src/main_vanilla_test.o] Error 1
+12:41:19 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+../src/main_vanilla_test.cpp: In function 'void collision_led(GpoCore*, GpiCore*)':
+../src/main_vanilla_test.cpp:117:26: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (now - last_tick1 > speed1) {
+         ~~~~~~~~~~~~~~~~~^~~~~~~~
+../src/main_vanilla_test.cpp:127:26: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (now - last_tick2 > speed2) {
+         ~~~~~~~~~~~~~~~~~^~~~~~~~
+'Finished building: ../src/main_vanilla_test.cpp'
+' '
+'Building target: mmio_ss_test.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mmio_ss_test.elf"  ./src/TimerCore.o ./src/chu_init.o ./src/gpio_core.o ./src/main_vanilla_test.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: mmio_ss_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mmio_ss_test.elf  |tee "mmio_ss_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   9688	    296	   3144	  13128	   3348	mmio_ss_test.elf
+'Finished building: mmio_ss_test.elf.size'
+' '
+12:41:25 **** Incremental Build of configuration Debug for project mmio_ss_test ****
+make all 
+make: Nothing to be done for `all'.
+12:53:43 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+../src/main_vanilla_test.cpp: In function 'void collision_led(GpoCore*, GpiCore*)':
+../src/main_vanilla_test.cpp:131:30: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         if (now - last_tick1 > speed1) {
+             ~~~~~~~~~~~~~~~~~^~~~~~~~
+../src/main_vanilla_test.cpp:141:30: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         if (now - last_tick2 > speed2) {
+             ~~~~~~~~~~~~~~~~~^~~~~~~~
+'Finished building: ../src/main_vanilla_test.cpp'
+' '
+'Building target: mmio_ss_test.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mmio_ss_test.elf"  ./src/TimerCore.o ./src/chu_init.o ./src/gpio_core.o ./src/main_vanilla_test.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: mmio_ss_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mmio_ss_test.elf  |tee "mmio_ss_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   9940	    296	   3148	  13384	   3448	mmio_ss_test.elf
+'Finished building: mmio_ss_test.elf.size'
+' '
+12:53:49 **** Incremental Build of configuration Debug for project mmio_ss_test ****
+make all 
+make: Nothing to be done for `all'.
+12:55:50 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+../src/main_vanilla_test.cpp: In function 'void collision_led(GpoCore*, GpiCore*)':
+../src/main_vanilla_test.cpp:118:27: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      if (now - last_tick1 > speed1)
+          ~~~~~~~~~~~~~~~~~^~~~~~~~
+../src/main_vanilla_test.cpp:132:30: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         if (now - last_tick1 > speed1) {
+             ~~~~~~~~~~~~~~~~~^~~~~~~~
+../src/main_vanilla_test.cpp:142:30: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         if (now - last_tick2 > speed2) {
+             ~~~~~~~~~~~~~~~~~^~~~~~~~
+'Finished building: ../src/main_vanilla_test.cpp'
+' '
+'Building target: mmio_ss_test.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mmio_ss_test.elf"  ./src/TimerCore.o ./src/chu_init.o ./src/gpio_core.o ./src/main_vanilla_test.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: mmio_ss_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mmio_ss_test.elf  |tee "mmio_ss_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   9968	    296	   3144	  13408	   3460	mmio_ss_test.elf
+'Finished building: mmio_ss_test.elf.size'
+' '
+12:55:58 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+../src/main_vanilla_test.cpp: In function 'void collision_led(GpoCore*, GpiCore*)':
+../src/main_vanilla_test.cpp:118:27: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      if (now - last_tick1 > speed1) {
+          ~~~~~~~~~~~~~~~~~^~~~~~~~
+../src/main_vanilla_test.cpp:133:30: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         if (now - last_tick1 > speed1) {
+             ~~~~~~~~~~~~~~~~~^~~~~~~~
+../src/main_vanilla_test.cpp:143:30: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         if (now - last_tick2 > speed2) {
+             ~~~~~~~~~~~~~~~~~^~~~~~~~
+'Finished building: ../src/main_vanilla_test.cpp'
+' '
+'Building target: mmio_ss_test.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mmio_ss_test.elf"  ./src/TimerCore.o ./src/chu_init.o ./src/gpio_core.o ./src/main_vanilla_test.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: mmio_ss_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mmio_ss_test.elf  |tee "mmio_ss_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   9968	    296	   3144	  13408	   3460	mmio_ss_test.elf
+'Finished building: mmio_ss_test.elf.size'
+' '
+12:56:48 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+'Finished building: ../src/main_vanilla_test.cpp'
+' '
+'Building target: mmio_ss_test.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mmio_ss_test.elf"  ./src/TimerCore.o ./src/chu_init.o ./src/gpio_core.o ./src/main_vanilla_test.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: mmio_ss_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mmio_ss_test.elf  |tee "mmio_ss_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   9968	    296	   3144	  13408	   3460	mmio_ss_test.elf
+'Finished building: mmio_ss_test.elf.size'
+' '
+12:56:54 **** Incremental Build of configuration Debug for project mmio_ss_test ****
+make all 
+make: Nothing to be done for `all'.
+15:03:20 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+'Finished building: ../src/main_vanilla_test.cpp'
+' '
+'Building target: mmio_ss_test.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mmio_ss_test.elf"  ./src/TimerCore.o ./src/chu_init.o ./src/gpio_core.o ./src/main_vanilla_test.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: mmio_ss_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mmio_ss_test.elf  |tee "mmio_ss_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12196	    284	   3144	  15624	   3d08	mmio_ss_test.elf
+'Finished building: mmio_ss_test.elf.size'
+' '
+15:03:27 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+'Finished building: ../src/main_vanilla_test.cpp'
+' '
+'Building target: mmio_ss_test.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mmio_ss_test.elf"  ./src/TimerCore.o ./src/chu_init.o ./src/gpio_core.o ./src/main_vanilla_test.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: mmio_ss_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mmio_ss_test.elf  |tee "mmio_ss_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  11184	    288	   3136	  14608	   3910	mmio_ss_test.elf
+'Finished building: mmio_ss_test.elf.size'
+' '
+15:03:55 **** Incremental Build of configuration Debug for project mmio_ss_test ****
+make all 
+make: Nothing to be done for `all'.
+15:11:29 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+'Finished building: ../src/main_vanilla_test.cpp'
+' '
+'Building target: mmio_ss_test.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mmio_ss_test.elf"  ./src/TimerCore.o ./src/chu_init.o ./src/gpio_core.o ./src/main_vanilla_test.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: mmio_ss_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mmio_ss_test.elf  |tee "mmio_ss_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12196	    284	   3144	  15624	   3d08	mmio_ss_test.elf
+'Finished building: mmio_ss_test.elf.size'
+' '
+15:11:33 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+'Finished building: ../src/main_vanilla_test.cpp'
+' '
+'Building target: mmio_ss_test.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mmio_ss_test.elf"  ./src/TimerCore.o ./src/chu_init.o ./src/gpio_core.o ./src/main_vanilla_test.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: mmio_ss_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mmio_ss_test.elf  |tee "mmio_ss_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  11176	    288	   3136	  14600	   3908	mmio_ss_test.elf
+'Finished building: mmio_ss_test.elf.size'
+' '
+15:12:02 **** Incremental Build of configuration Debug for project mmio_ss_test ****
+make all 
+make: Nothing to be done for `all'.
+15:38:46 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+../src/main_vanilla_test.cpp: In function 'void collision_led(GpoCore*, GpiCore*)':
+../src/main_vanilla_test.cpp:123:41: error: expected ';' before '}' token
+     if (s & 0x01) { pos1 = 0; dir1 =  1 };  // SW0: Reset LED 1 to rightmost
+                                         ^
+../src/main_vanilla_test.cpp:124:41: error: expected ';' before '}' token
+     if (s & 0x02) { pos2 = 5; dir2 = -1 };  // SW1: Reset LED 2 to leftmost
+                                         ^
+make: *** [src/main_vanilla_test.o] Error 1
+15:38:53 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+../src/main_vanilla_test.cpp: In function 'void collision_led(GpoCore*, GpiCore*)':
+../src/main_vanilla_test.cpp:123:41: error: expected ';' before '}' token
+     if (s & 0x01) { pos1 = 0; dir1 =  1 };  // SW0: Reset LED 1 to rightmost
+                                         ^
+../src/main_vanilla_test.cpp:124:41: error: expected ';' before '}' token
+     if (s & 0x02) { pos2 = 5; dir2 = -1 };  // SW1: Reset LED 2 to leftmost
+                                         ^
+../src/main_vanilla_test.cpp: In function 'int main()':
+../src/main_vanilla_test.cpp:174:36: error: too many arguments to function 'void collision_led(GpoCore*, GpiCore*)'
+          collision_led(&led, &sw, 6);
+                                    ^
+../src/main_vanilla_test.cpp:111:6: note: declared here
+ void collision_led(GpoCore *led_p, GpiCore *sw_p) {
+      ^~~~~~~~~~~~~
+make: *** [src/main_vanilla_test.o] Error 1
+15:38:58 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+../src/main_vanilla_test.cpp: In function 'void collision_led(GpoCore*, GpiCore*)':
+../src/main_vanilla_test.cpp:123:41: error: expected ';' before '}' token
+     if (s & 0x01) { pos1 = 0; dir1 =  1 };  // SW0: Reset LED 1 to rightmost
+                                         ^
+../src/main_vanilla_test.cpp:124:41: error: expected ';' before '}' token
+     if (s & 0x02) { pos2 = 5; dir2 = -1 };  // SW1: Reset LED 2 to leftmost
+                                         ^
+make: *** [src/main_vanilla_test.o] Error 1
+15:39:04 **** Incremental Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+../src/main_vanilla_test.cpp: In function 'void collision_led(GpoCore*, GpiCore*)':
+../src/main_vanilla_test.cpp:123:41: error: expected ';' before '}' token
+     if (s & 0x01) { pos1 = 0; dir1 =  1 };  // SW0: Reset LED 1 to rightmost
+                                         ^
+../src/main_vanilla_test.cpp:124:41: error: expected ';' before '}' token
+     if (s & 0x02) { pos2 = 5; dir2 = -1 };  // SW1: Reset LED 2 to leftmost
+                                         ^
+make: *** [src/main_vanilla_test.o] Error 1
+15:40:02 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+'Finished building: ../src/main_vanilla_test.cpp'
+' '
+'Building target: mmio_ss_test.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mmio_ss_test.elf"  ./src/TimerCore.o ./src/chu_init.o ./src/gpio_core.o ./src/main_vanilla_test.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: mmio_ss_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mmio_ss_test.elf  |tee "mmio_ss_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   9908	    288	   3156	  13352	   3428	mmio_ss_test.elf
+'Finished building: mmio_ss_test.elf.size'
+' '
+15:40:13 **** Incremental Build of configuration Debug for project mmio_ss_test ****
+make all 
+make: Nothing to be done for `all'.
+15:40:39 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+'Finished building: ../src/main_vanilla_test.cpp'
+' '
+'Building target: mmio_ss_test.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mmio_ss_test.elf"  ./src/TimerCore.o ./src/chu_init.o ./src/gpio_core.o ./src/main_vanilla_test.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: mmio_ss_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mmio_ss_test.elf  |tee "mmio_ss_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   9908	    288	   3156	  13352	   3428	mmio_ss_test.elf
+'Finished building: mmio_ss_test.elf.size'
+' '
+15:40:43 **** Incremental Build of configuration Debug for project mmio_ss_test ****
+make all 
+make: Nothing to be done for `all'.
+15:49:57 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+'Finished building: ../src/main_vanilla_test.cpp'
+' '
+'Building target: mmio_ss_test.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mmio_ss_test.elf"  ./src/TimerCore.o ./src/chu_init.o ./src/gpio_core.o ./src/main_vanilla_test.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: mmio_ss_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mmio_ss_test.elf  |tee "mmio_ss_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12196	    284	   3144	  15624	   3d08	mmio_ss_test.elf
+'Finished building: mmio_ss_test.elf.size'
+' '
+15:50:02 **** Incremental Build of configuration Debug for project mmio_ss_test ****
+make all 
+make: Nothing to be done for `all'.
+15:50:27 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+../src/main_vanilla_test.cpp: In function 'int main()':
+../src/main_vanilla_test.cpp:180:36: error: too many arguments to function 'void collision_led(GpoCore*, GpiCore*)'
+          collision_led(&led, &sw, 6);
+                                    ^
+../src/main_vanilla_test.cpp:111:6: note: declared here
+ void collision_led(GpoCore *led_p, GpiCore *sw_p) {
+      ^~~~~~~~~~~~~
+make: *** [src/main_vanilla_test.o] Error 1
+15:50:31 **** Incremental Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+../src/main_vanilla_test.cpp: In function 'int main()':
+../src/main_vanilla_test.cpp:180:36: error: too many arguments to function 'void collision_led(GpoCore*, GpiCore*)'
+          collision_led(&led, &sw, 6);
+                                    ^
+../src/main_vanilla_test.cpp:111:6: note: declared here
+ void collision_led(GpoCore *led_p, GpiCore *sw_p) {
+      ^~~~~~~~~~~~~
+make: *** [src/main_vanilla_test.o] Error 1
+15:50:43 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+'Finished building: ../src/main_vanilla_test.cpp'
+' '
+'Building target: mmio_ss_test.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mmio_ss_test.elf"  ./src/TimerCore.o ./src/chu_init.o ./src/gpio_core.o ./src/main_vanilla_test.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: mmio_ss_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mmio_ss_test.elf  |tee "mmio_ss_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   9852	    288	   3156	  13296	   33f0	mmio_ss_test.elf
+'Finished building: mmio_ss_test.elf.size'
+' '
+15:50:47 **** Incremental Build of configuration Debug for project mmio_ss_test ****
+make all 
+make: Nothing to be done for `all'.
+15:51:41 **** Incremental Build of configuration Debug for project mmio_ss_test ****
+make all 
+make: Nothing to be done for `all'.
+16:02:21 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+'Finished building: ../src/main_vanilla_test.cpp'
+' '
+'Building target: mmio_ss_test.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mmio_ss_test.elf"  ./src/TimerCore.o ./src/chu_init.o ./src/gpio_core.o ./src/main_vanilla_test.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: mmio_ss_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mmio_ss_test.elf  |tee "mmio_ss_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30480	   1328	   3240	  35048	   88e8	mmio_ss_test.elf
+'Finished building: mmio_ss_test.elf.size'
+' '
+16:02:24 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+'Finished building: ../src/main_vanilla_test.cpp'
+' '
+'Building target: mmio_ss_test.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mmio_ss_test.elf"  ./src/TimerCore.o ./src/chu_init.o ./src/gpio_core.o ./src/main_vanilla_test.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+c:/xilinx/sdk/2018.2/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/7.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: mmio_ss_test.elf section `.text' will not fit in region `u_cpu_unit_cpu_i_microblaze_mcs_0_ilmb_cntlr_Mem_u_cpu_unit_cpu_i_microblaze_mcs_0_dlmb_cntlr_Mem'
+c:/xilinx/sdk/2018.2/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/7.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: region `u_cpu_unit_cpu_i_microblaze_mcs_0_ilmb_cntlr_Mem_u_cpu_unit_cpu_i_microblaze_mcs_0_dlmb_cntlr_Mem' overflowed by 36184 bytes
+collect2.exe: error: ld returned 1 exit status
+make: *** [mmio_ss_test.elf] Error 1
+16:02:29 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+'Finished building: ../src/main_vanilla_test.cpp'
+' '
+'Building target: mmio_ss_test.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mmio_ss_test.elf"  ./src/TimerCore.o ./src/chu_init.o ./src/gpio_core.o ./src/main_vanilla_test.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+c:/xilinx/sdk/2018.2/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/7.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: mmio_ss_test.elf section `.text' will not fit in region `u_cpu_unit_cpu_i_microblaze_mcs_0_ilmb_cntlr_Mem_u_cpu_unit_cpu_i_microblaze_mcs_0_dlmb_cntlr_Mem'
+c:/xilinx/sdk/2018.2/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/7.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: region `u_cpu_unit_cpu_i_microblaze_mcs_0_ilmb_cntlr_Mem_u_cpu_unit_cpu_i_microblaze_mcs_0_dlmb_cntlr_Mem' overflowed by 34096 bytes
+collect2.exe: error: ld returned 1 exit status
+make: *** [mmio_ss_test.elf] Error 1
+16:02:33 **** Incremental Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building target: mmio_ss_test.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mmio_ss_test.elf"  ./src/TimerCore.o ./src/chu_init.o ./src/gpio_core.o ./src/main_vanilla_test.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+c:/xilinx/sdk/2018.2/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/7.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: mmio_ss_test.elf section `.text' will not fit in region `u_cpu_unit_cpu_i_microblaze_mcs_0_ilmb_cntlr_Mem_u_cpu_unit_cpu_i_microblaze_mcs_0_dlmb_cntlr_Mem'
+c:/xilinx/sdk/2018.2/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/7.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: region `u_cpu_unit_cpu_i_microblaze_mcs_0_ilmb_cntlr_Mem_u_cpu_unit_cpu_i_microblaze_mcs_0_dlmb_cntlr_Mem' overflowed by 34096 bytes
+collect2.exe: error: ld returned 1 exit status
+make: *** [mmio_ss_test.elf] Error 1
+16:02:55 **** Incremental Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building target: mmio_ss_test.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mmio_ss_test.elf"  ./src/TimerCore.o ./src/chu_init.o ./src/gpio_core.o ./src/main_vanilla_test.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+c:/xilinx/sdk/2018.2/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/7.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: mmio_ss_test.elf section `.text' will not fit in region `u_cpu_unit_cpu_i_microblaze_mcs_0_ilmb_cntlr_Mem_u_cpu_unit_cpu_i_microblaze_mcs_0_dlmb_cntlr_Mem'
+c:/xilinx/sdk/2018.2/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/7.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: region `u_cpu_unit_cpu_i_microblaze_mcs_0_ilmb_cntlr_Mem_u_cpu_unit_cpu_i_microblaze_mcs_0_dlmb_cntlr_Mem' overflowed by 34096 bytes
+collect2.exe: error: ld returned 1 exit status
+make: *** [mmio_ss_test.elf] Error 1
+16:04:06 **** Incremental Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building target: mmio_ss_test.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mmio_ss_test.elf"  ./src/TimerCore.o ./src/chu_init.o ./src/gpio_core.o ./src/main_vanilla_test.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+c:/xilinx/sdk/2018.2/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/7.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: mmio_ss_test.elf section `.text' will not fit in region `u_cpu_unit_cpu_i_microblaze_mcs_0_ilmb_cntlr_Mem_u_cpu_unit_cpu_i_microblaze_mcs_0_dlmb_cntlr_Mem'
+c:/xilinx/sdk/2018.2/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/7.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: region `u_cpu_unit_cpu_i_microblaze_mcs_0_ilmb_cntlr_Mem_u_cpu_unit_cpu_i_microblaze_mcs_0_dlmb_cntlr_Mem' overflowed by 34096 bytes
+collect2.exe: error: ld returned 1 exit status
+make: *** [mmio_ss_test.elf] Error 1
+16:04:57 **** Incremental Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building target: mmio_ss_test.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mmio_ss_test.elf"  ./src/TimerCore.o ./src/chu_init.o ./src/gpio_core.o ./src/main_vanilla_test.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+c:/xilinx/sdk/2018.2/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/7.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: mmio_ss_test.elf section `.text' will not fit in region `u_cpu_unit_cpu_i_microblaze_mcs_0_ilmb_cntlr_Mem_u_cpu_unit_cpu_i_microblaze_mcs_0_dlmb_cntlr_Mem'
+c:/xilinx/sdk/2018.2/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/7.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: region `u_cpu_unit_cpu_i_microblaze_mcs_0_ilmb_cntlr_Mem_u_cpu_unit_cpu_i_microblaze_mcs_0_dlmb_cntlr_Mem' overflowed by 34096 bytes
+collect2.exe: error: ld returned 1 exit status
+make: *** [mmio_ss_test.elf] Error 1
+16:05:41 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+'Finished building: ../src/main_vanilla_test.cpp'
+' '
+'Building target: mmio_ss_test.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mmio_ss_test.elf"  ./src/TimerCore.o ./src/chu_init.o ./src/gpio_core.o ./src/main_vanilla_test.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+c:/xilinx/sdk/2018.2/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/7.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: mmio_ss_test.elf section `.text' will not fit in region `u_cpu_unit_cpu_i_microblaze_mcs_0_ilmb_cntlr_Mem_u_cpu_unit_cpu_i_microblaze_mcs_0_dlmb_cntlr_Mem'
+c:/xilinx/sdk/2018.2/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/7.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: region `u_cpu_unit_cpu_i_microblaze_mcs_0_ilmb_cntlr_Mem_u_cpu_unit_cpu_i_microblaze_mcs_0_dlmb_cntlr_Mem' overflowed by 33952 bytes
+collect2.exe: error: ld returned 1 exit status
+make: *** [mmio_ss_test.elf] Error 1
+16:05:46 **** Incremental Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building target: mmio_ss_test.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mmio_ss_test.elf"  ./src/TimerCore.o ./src/chu_init.o ./src/gpio_core.o ./src/main_vanilla_test.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+c:/xilinx/sdk/2018.2/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/7.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: mmio_ss_test.elf section `.text' will not fit in region `u_cpu_unit_cpu_i_microblaze_mcs_0_ilmb_cntlr_Mem_u_cpu_unit_cpu_i_microblaze_mcs_0_dlmb_cntlr_Mem'
+c:/xilinx/sdk/2018.2/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/7.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: region `u_cpu_unit_cpu_i_microblaze_mcs_0_ilmb_cntlr_Mem_u_cpu_unit_cpu_i_microblaze_mcs_0_dlmb_cntlr_Mem' overflowed by 33952 bytes
+collect2.exe: error: ld returned 1 exit status
+make: *** [mmio_ss_test.elf] Error 1
+16:07:41 **** Incremental Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building target: mmio_ss_test.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mmio_ss_test.elf"  ./src/TimerCore.o ./src/chu_init.o ./src/gpio_core.o ./src/main_vanilla_test.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+c:/xilinx/sdk/2018.2/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/7.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: mmio_ss_test.elf section `.text' will not fit in region `u_cpu_unit_cpu_i_microblaze_mcs_0_ilmb_cntlr_Mem_u_cpu_unit_cpu_i_microblaze_mcs_0_dlmb_cntlr_Mem'
+c:/xilinx/sdk/2018.2/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/7.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: region `u_cpu_unit_cpu_i_microblaze_mcs_0_ilmb_cntlr_Mem_u_cpu_unit_cpu_i_microblaze_mcs_0_dlmb_cntlr_Mem' overflowed by 33952 bytes
+collect2.exe: error: ld returned 1 exit status
+make: *** [mmio_ss_test.elf] Error 1
+16:08:48 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+'Finished building: ../src/main_vanilla_test.cpp'
+' '
+'Building target: mmio_ss_test.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mmio_ss_test.elf"  ./src/TimerCore.o ./src/chu_init.o ./src/gpio_core.o ./src/main_vanilla_test.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: mmio_ss_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mmio_ss_test.elf  |tee "mmio_ss_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30480	   1328	   3240	  35048	   88e8	mmio_ss_test.elf
+'Finished building: mmio_ss_test.elf.size'
+' '
+16:08:53 **** Incremental Build of configuration Debug for project mmio_ss_test ****
+make all 
+make: Nothing to be done for `all'.
+16:09:10 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+'Finished building: ../src/main_vanilla_test.cpp'
+' '
+'Building target: mmio_ss_test.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mmio_ss_test.elf"  ./src/TimerCore.o ./src/chu_init.o ./src/gpio_core.o ./src/main_vanilla_test.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: mmio_ss_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mmio_ss_test.elf  |tee "mmio_ss_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29460	   1332	   3232	  34024	   84e8	mmio_ss_test.elf
+'Finished building: mmio_ss_test.elf.size'
+' '
+16:09:16 **** Incremental Build of configuration Debug for project mmio_ss_test ****
+make all 
+make: Nothing to be done for `all'.
+16:09:30 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+'Finished building: ../src/main_vanilla_test.cpp'
+' '
+'Building target: mmio_ss_test.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mmio_ss_test.elf"  ./src/TimerCore.o ./src/chu_init.o ./src/gpio_core.o ./src/main_vanilla_test.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+c:/xilinx/sdk/2018.2/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/7.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: mmio_ss_test.elf section `.text' will not fit in region `u_cpu_unit_cpu_i_microblaze_mcs_0_ilmb_cntlr_Mem_u_cpu_unit_cpu_i_microblaze_mcs_0_dlmb_cntlr_Mem'
+c:/xilinx/sdk/2018.2/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/7.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: region `u_cpu_unit_cpu_i_microblaze_mcs_0_ilmb_cntlr_Mem_u_cpu_unit_cpu_i_microblaze_mcs_0_dlmb_cntlr_Mem' overflowed by 34096 bytes
+collect2.exe: error: ld returned 1 exit status
+make: *** [mmio_ss_test.elf] Error 1
+16:09:35 **** Incremental Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building target: mmio_ss_test.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mmio_ss_test.elf"  ./src/TimerCore.o ./src/chu_init.o ./src/gpio_core.o ./src/main_vanilla_test.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+c:/xilinx/sdk/2018.2/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/7.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: mmio_ss_test.elf section `.text' will not fit in region `u_cpu_unit_cpu_i_microblaze_mcs_0_ilmb_cntlr_Mem_u_cpu_unit_cpu_i_microblaze_mcs_0_dlmb_cntlr_Mem'
+c:/xilinx/sdk/2018.2/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/7.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: region `u_cpu_unit_cpu_i_microblaze_mcs_0_ilmb_cntlr_Mem_u_cpu_unit_cpu_i_microblaze_mcs_0_dlmb_cntlr_Mem' overflowed by 34096 bytes
+collect2.exe: error: ld returned 1 exit status
+make: *** [mmio_ss_test.elf] Error 1
+16:12:58 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+'Finished building: ../src/main_vanilla_test.cpp'
+' '
+'Building target: mmio_ss_test.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mmio_ss_test.elf"  ./src/TimerCore.o ./src/chu_init.o ./src/gpio_core.o ./src/main_vanilla_test.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: mmio_ss_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mmio_ss_test.elf  |tee "mmio_ss_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  10512	    284	   3148	  13944	   3678	mmio_ss_test.elf
+'Finished building: mmio_ss_test.elf.size'
+' '
+16:13:03 **** Incremental Build of configuration Debug for project mmio_ss_test ****
+make all 
+make: Nothing to be done for `all'.
+16:14:07 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+'Finished building: ../src/main_vanilla_test.cpp'
+' '
+'Building target: mmio_ss_test.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mmio_ss_test.elf"  ./src/TimerCore.o ./src/chu_init.o ./src/gpio_core.o ./src/main_vanilla_test.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: mmio_ss_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mmio_ss_test.elf  |tee "mmio_ss_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  10516	    284	   3152	  13952	   3680	mmio_ss_test.elf
+'Finished building: mmio_ss_test.elf.size'
+' '
+16:14:14 **** Incremental Build of configuration Debug for project mmio_ss_test ****
+make all 
+make: Nothing to be done for `all'.
+16:14:34 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+'Finished building: ../src/main_vanilla_test.cpp'
+' '
+'Building target: mmio_ss_test.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mmio_ss_test.elf"  ./src/TimerCore.o ./src/chu_init.o ./src/gpio_core.o ./src/main_vanilla_test.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: mmio_ss_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mmio_ss_test.elf  |tee "mmio_ss_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  10512	    284	   3148	  13944	   3678	mmio_ss_test.elf
+'Finished building: mmio_ss_test.elf.size'
+' '
+16:14:59 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+'Finished building: ../src/main_vanilla_test.cpp'
+' '
+'Building target: mmio_ss_test.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mmio_ss_test.elf"  ./src/TimerCore.o ./src/chu_init.o ./src/gpio_core.o ./src/main_vanilla_test.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: mmio_ss_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mmio_ss_test.elf  |tee "mmio_ss_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  10536	    284	   3148	  13968	   3690	mmio_ss_test.elf
+'Finished building: mmio_ss_test.elf.size'
+' '
+16:15:03 **** Incremental Build of configuration Debug for project mmio_ss_test ****
+make all 
+make: Nothing to be done for `all'.
+11:39:55 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+../src/main_vanilla_test.cpp:193:27: error: variable or field 'pwm_3color_led_check' declared void
+ void pwm_3color_led_check(PwmCore *pwm_p) {
+                           ^~~~~~~
+../src/main_vanilla_test.cpp:193:27: error: 'PwmCore' was not declared in this scope
+../src/main_vanilla_test.cpp:193:27: note: suggested alternative: 'GpiCore'
+ void pwm_3color_led_check(PwmCore *pwm_p) {
+                           ^~~~~~~
+                           GpiCore
+../src/main_vanilla_test.cpp:193:36: error: 'pwm_p' was not declared in this scope
+ void pwm_3color_led_check(PwmCore *pwm_p) {
+                                    ^~~~~
+../src/main_vanilla_test.cpp:217:1: error: 'PwmCore' does not name a type; did you mean 'GpiCore'?
+ PwmCore pwm(get_slot_addr(BRIDGE_BASE, S6_PWM));
+ ^~~~~~~
+ GpiCore
+make: *** [src/main_vanilla_test.o] Error 1
+11:40:49 **** Auto Build of project mcs_cpu_bsp ****
+make -k all 
+"Running Make include in u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/libsrc/bram_v4_2/src"
+make -C u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/libsrc/cpu_v2_7/src"
+make -C u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/libsrc/cpu_v2_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/libsrc/iomodule_v2_5/src"
+make -C u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/libsrc/iomodule_v2_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/libsrc/standalone_v6_7/src"
+make -C u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/libsrc/bram_v4_2/src"
+make -C u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xbram_hw.h:63,
+                 from xbram.h:139,
+                 from xbram.c:62:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xbram_hw.h:63,
+                 from xbram.h:139,
+                 from xbram.c:62:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xbram_hw.h:63,
+                 from xbram.h:139,
+                 from xbram_g.c:54:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xbram_hw.h:63,
+                 from xbram.h:139,
+                 from xbram_g.c:54:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xbram_hw.h:63,
+                 from xbram.h:139,
+                 from xbram_intr.c:58:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xbram_hw.h:63,
+                 from xbram.h:139,
+                 from xbram_intr.c:58:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xbram_hw.h:63,
+                 from xbram.h:139,
+                 from xbram_selftest.c:72:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xbram_hw.h:63,
+                 from xbram.h:139,
+                 from xbram_selftest.c:72:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from xbram_sinit.c:60:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xbram_hw.h:63,
+                 from xbram.h:139,
+                 from xbram_sinit.c:61:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xbram_hw.h:63,
+                 from xbram.h:139,
+                 from xbram_sinit.c:61:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [libs] Error 1
+make: *** [u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/libsrc/bram_v4_2/src/make.libs] Error 2
+"Running Make libs in u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/libsrc/cpu_v2_7/src"
+make -C u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/libsrc/cpu_v2_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/libsrc/iomodule_v2_5/src"
+make -C u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/libsrc/iomodule_v2_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling iomodule"
+In file included from xiomodule.h:264:0,
+                 from xiomodule.c:60:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xiomodule_l.h:84:0,
+                 from xiomodule.h:266,
+                 from xiomodule.c:60:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xiomodule_io.h:60,
+                 from xiomodule_l.h:85,
+                 from xiomodule.h:266,
+                 from xiomodule.c:60:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xiomodule_io.h:60,
+                 from xiomodule_l.h:85,
+                 from xiomodule.h:266,
+                 from xiomodule.c:60:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from xiomodule.h:264:0,
+                 from xiomodule_extra.c:57:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xiomodule_l.h:84:0,
+                 from xiomodule.h:266,
+                 from xiomodule_extra.c:57:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xiomodule_io.h:60,
+                 from xiomodule_l.h:85,
+                 from xiomodule.h:266,
+                 from xiomodule_extra.c:57:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xiomodule_io.h:60,
+                 from xiomodule_l.h:85,
+                 from xiomodule.h:266,
+                 from xiomodule_extra.c:57:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from xiomodule.h:264:0,
+                 from xiomodule_g.c:67:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xiomodule_l.h:84:0,
+                 from xiomodule.h:266,
+                 from xiomodule_g.c:67:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xiomodule_io.h:60,
+                 from xiomodule_l.h:85,
+                 from xiomodule.h:266,
+                 from xiomodule_g.c:67:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xiomodule_io.h:60,
+                 from xiomodule_l.h:85,
+                 from xiomodule.h:266,
+                 from xiomodule_g.c:67:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from xiomodule_intr.c:94:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xiomodule.h:264:0,
+                 from xiomodule_intr.c:95:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xiomodule_l.h:84:0,
+                 from xiomodule.h:266,
+                 from xiomodule_intr.c:95:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xiomodule_io.h:60,
+                 from xiomodule_l.h:85,
+                 from xiomodule.h:266,
+                 from xiomodule_intr.c:95:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xiomodule_io.h:60,
+                 from xiomodule_l.h:85,
+                 from xiomodule.h:266,
+                 from xiomodule_intr.c:95:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from xiomodule_l.c:57:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xiomodule.h:264:0,
+                 from xiomodule_l.c:58:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xiomodule_l.h:84:0,
+                 from xiomodule.h:266,
+                 from xiomodule_l.c:58:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xiomodule_io.h:60,
+                 from xiomodule_l.h:85,
+                 from xiomodule.h:266,
+                 from xiomodule_l.c:58:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xiomodule_io.h:60,
+                 from xiomodule_l.h:85,
+                 from xiomodule.h:266,
+                 from xiomodule_l.c:58:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from xiomodule.h:264:0,
+                 from xiomodule_options.c:56:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xiomodule_l.h:84:0,
+                 from xiomodule.h:266,
+                 from xiomodule_options.c:56:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xiomodule_io.h:60,
+                 from xiomodule_l.h:85,
+                 from xiomodule.h:266,
+                 from xiomodule_options.c:56:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xiomodule_io.h:60,
+                 from xiomodule_l.h:85,
+                 from xiomodule.h:266,
+                 from xiomodule_options.c:56:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from xiomodule.h:264:0,
+                 from xiomodule_selftest.c:54:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xiomodule_l.h:84:0,
+                 from xiomodule.h:266,
+                 from xiomodule_selftest.c:54:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xiomodule_io.h:60,
+                 from xiomodule_l.h:85,
+                 from xiomodule.h:266,
+                 from xiomodule_selftest.c:54:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xiomodule_io.h:60,
+                 from xiomodule_l.h:85,
+                 from xiomodule.h:266,
+                 from xiomodule_selftest.c:54:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from xiomodule.h:264:0,
+                 from xiomodule_stats.c:55:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xiomodule_l.h:84:0,
+                 from xiomodule.h:266,
+                 from xiomodule_stats.c:55:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xiomodule_io.h:60,
+                 from xiomodule_l.h:85,
+                 from xiomodule.h:266,
+                 from xiomodule_stats.c:55:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xiomodule_io.h:60,
+                 from xiomodule_l.h:85,
+                 from xiomodule.h:266,
+                 from xiomodule_stats.c:55:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from xiomodule.h:264:0,
+                 from xiomodule_uart.c:59:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xiomodule_l.h:84:0,
+                 from xiomodule.h:266,
+                 from xiomodule_uart.c:59:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xiomodule_io.h:60,
+                 from xiomodule_l.h:85,
+                 from xiomodule.h:266,
+                 from xiomodule_uart.c:59:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xiomodule_io.h:60,
+                 from xiomodule_l.h:85,
+                 from xiomodule.h:266,
+                 from xiomodule_uart.c:59:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from xiomodule.h:264:0,
+                 from xiomodule_uart_intr.c:62:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xiomodule_l.h:84:0,
+                 from xiomodule.h:266,
+                 from xiomodule_uart_intr.c:62:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xiomodule_io.h:60,
+                 from xiomodule_l.h:85,
+                 from xiomodule.h:266,
+                 from xiomodule_uart_intr.c:62:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_io.h:65:0,
+                 from xiomodule_io.h:60,
+                 from xiomodule_l.h:85,
+                 from xiomodule.h:266,
+                 from xiomodule_uart_intr.c:62:
+../../../include/xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [libs] Error 1
+make: *** [u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/libsrc/iomodule_v2_5/src/make.libs] Error 2
+"Running Make libs in u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/libsrc/standalone_v6_7/src"
+make -C u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+In file included from microblaze_interrupts_g.c:51:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from microblaze_sleep.h:70:0,
+                 from microblaze_sleep.c:60:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xil_printf.h:12:0,
+                 from xil_io.h:65,
+                 from sleep.h:56,
+                 from microblaze_sleep.h:71,
+                 from microblaze_sleep.c:60:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xil_io.h:65:0,
+                 from sleep.h:56,
+                 from microblaze_sleep.h:71,
+                 from microblaze_sleep.c:60:
+xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from xil_printf.h:12:0,
+                 from print.c:20:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from print.c:20:0:
+xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from pvr.c:41:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from pvr.h:63:0,
+                 from pvr.c:42:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from pvr.c:42:0:
+pvr.h:65:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from xil_cache.h:78:0,
+                 from xil_cache.c:57:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xil_printf.h:12:0,
+                 from xil_io.h:65,
+                 from xil_io.c:55:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xil_io.h:65:0,
+                 from xil_io.c:55:
+xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from xil_printf.h:12:0,
+                 from xil_io.h:65,
+                 from xil_misc_psreset_api.h:58,
+                 from xil_misc_psreset_api.c:55:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xil_io.h:65:0,
+                 from xil_misc_psreset_api.h:58,
+                 from xil_misc_psreset_api.c:55:
+xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from xil_printf.h:12:0,
+                 from xil_printf.c:8:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xil_printf.c:8:0:
+xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from xil_printf.h:12:0,
+                 from xil_io.h:65,
+                 from xil_sleepcommon.c:50:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xil_io.h:65:0,
+                 from xil_sleepcommon.c:50:
+xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from xil_printf.h:12:0,
+                 from xil_io.h:65,
+                 from xil_testio.c:52:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xil_io.h:65:0,
+                 from xil_testio.c:52:
+xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from xil_printf.h:12:0,
+                 from xil_io.h:65,
+                 from xil_testmem.c:51:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xil_io.h:65:0,
+                 from xil_testmem.c:51:
+xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from xil_printf.h:12:0,
+                 from xil_io.h:65,
+                 from xplatform_info.c:62:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xil_io.h:65:0,
+                 from xplatform_info.c:62:
+xil_printf.h:13:10: fatal error: bspconfig.h: No such file or directory
+ #include "bspconfig.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from hw_exception_handler.S:44:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from microblaze_disable_dcache.S:43:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from microblaze_disable_exceptions.S:39:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from microblaze_disable_icache.S:45:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from microblaze_disable_interrupts.S:56:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from microblaze_enable_dcache.S:45:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from microblaze_enable_exceptions.S:39:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from microblaze_enable_icache.S:44:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from microblaze_enable_interrupts.S:57:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from microblaze_flush_cache_ext.S:41:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from microblaze_flush_cache_ext_range.S:44:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from microblaze_flush_dcache.S:41:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from microblaze_flush_dcache_range.S:44:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from microblaze_init_dcache_range.S:45:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from microblaze_init_icache_range.S:46:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from microblaze_invalidate_cache_ext.S:41:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from microblaze_invalidate_cache_ext_range.S:44:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from microblaze_invalidate_dcache.S:41:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from microblaze_invalidate_dcache_range.S:46:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from microblaze_invalidate_icache.S:42:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from microblaze_invalidate_icache_range.S:46:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from microblaze_scrub.S:51:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from microblaze_update_dcache.S:61:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from microblaze_update_icache.S:60:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+make[1]: *** [standalone_libs] Error 1
+make[1]: Target `libs' not remade because of errors.
+make: *** [u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/libsrc/standalone_v6_7/src/make.libs] Error 2
+make: Target `all' not remade because of errors.
+11:40:58 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/gpio_core.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_core.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/gpio_core.d" -MT"src/gpio_core.o" -o "src/gpio_core.o" "../src/gpio_core.cpp"
+../src/gpio_core.cpp:38:1: error: 'PwmCore' does not name a type; did you mean 'GpiCore'?
+ PwmCore::PwmCore(uint32_t core_base_addr) {
+ ^~~~~~~
+ GpiCore
+../src/gpio_core.cpp:43:1: error: 'PwmCore' does not name a type; did you mean 'GpiCore'?
+ PwmCore::~PwmCore() {}
+ ^~~~~~~
+ GpiCore
+../src/gpio_core.cpp:45:6: error: 'PwmCore' has not been declared
+ void PwmCore::set_freq(int freq) {
+      ^~~~~~~
+../src/gpio_core.cpp: In function 'void set_freq(int)':
+../src/gpio_core.cpp:47:48: error: 'MAX' was not declared in this scope
+     dvsr = (uint32_t) SYS_CLK_FREQ * 1000000 / MAX / freq; // divisor = clock / resolution / frequency
+                                                ^~~
+In file included from ../src/chu_init.h:2:0,
+                 from ../src/gpio_core.h:1,
+                 from ../src/gpio_core.cpp:1:
+../src/gpio_core.cpp:48:14: error: 'base_addr' was not declared in this scope
+     io_write(base_addr, DVSR_REG, dvsr);
+              ^
+../src/chu_io_rw.h:13:31: note: in definition of macro 'io_write'
+     (*((volatile uint32_t *)((base_addr) + (offset))) = (data))
+                               ^~~~~~~~~
+../src/gpio_core.cpp:48:25: error: 'DVSR_REG' was not declared in this scope
+     io_write(base_addr, DVSR_REG, dvsr);
+                         ^
+../src/chu_io_rw.h:13:45: note: in definition of macro 'io_write'
+     (*((volatile uint32_t *)((base_addr) + (offset))) = (data))
+                                             ^~~~~~
+../src/gpio_core.cpp: At global scope:
+../src/gpio_core.cpp:51:6: error: 'PwmCore' has not been declared
+ void PwmCore::set_duty(int duty, int channel) {
+      ^~~~~~~
+../src/gpio_core.cpp: In function 'void set_duty(int, int)':
+../src/gpio_core.cpp:54:16: error: 'MAX' was not declared in this scope
+     if (duty > MAX) {
+                ^~~
+In file included from ../src/chu_init.h:2:0,
+                 from ../src/gpio_core.h:1,
+                 from ../src/gpio_core.cpp:1:
+../src/gpio_core.cpp:59:14: error: 'base_addr' was not declared in this scope
+     io_write(base_addr, DUTY_REG_BASE + channel, d);
+              ^
+../src/chu_io_rw.h:13:31: note: in definition of macro 'io_write'
+     (*((volatile uint32_t *)((base_addr) + (offset))) = (data))
+                               ^~~~~~~~~
+../src/gpio_core.cpp:59:25: error: 'DUTY_REG_BASE' was not declared in this scope
+     io_write(base_addr, DUTY_REG_BASE + channel, d);
+                         ^
+../src/chu_io_rw.h:13:45: note: in definition of macro 'io_write'
+     (*((volatile uint32_t *)((base_addr) + (offset))) = (data))
+                                             ^~~~~~
+../src/gpio_core.cpp: At global scope:
+../src/gpio_core.cpp:62:6: error: 'PwmCore' has not been declared
+ void PwmCore::set_duty(double f, int channel) {
+      ^~~~~~~
+../src/gpio_core.cpp: In function 'void set_duty(double, int)':
+../src/gpio_core.cpp:65:23: error: 'MAX' was not declared in this scope
+     duty = (int) (f * MAX);
+                       ^~~
+make: *** [src/gpio_core.o] Error 1
+11:41:15 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/gpio_core.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_core.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/gpio_core.d" -MT"src/gpio_core.o" -o "src/gpio_core.o" "../src/gpio_core.cpp"
+../src/gpio_core.cpp:38:1: error: 'PwmCore' does not name a type; did you mean 'GpiCore'?
+ PwmCore::PwmCore(uint32_t core_base_addr) {
+ ^~~~~~~
+ GpiCore
+../src/gpio_core.cpp:43:1: error: 'PwmCore' does not name a type; did you mean 'GpiCore'?
+ PwmCore::~PwmCore() {}
+ ^~~~~~~
+ GpiCore
+../src/gpio_core.cpp:45:6: error: 'PwmCore' has not been declared
+ void PwmCore::set_freq(int freq) {
+      ^~~~~~~
+../src/gpio_core.cpp: In function 'void set_freq(int)':
+../src/gpio_core.cpp:47:48: error: 'MAX' was not declared in this scope
+     dvsr = (uint32_t) SYS_CLK_FREQ * 1000000 / MAX / freq; // divisor = clock / resolution / frequency
+                                                ^~~
+In file included from ../src/chu_init.h:2:0,
+                 from ../src/gpio_core.h:1,
+                 from ../src/gpio_core.cpp:1:
+../src/gpio_core.cpp:48:14: error: 'base_addr' was not declared in this scope
+     io_write(base_addr, DVSR_REG, dvsr);
+              ^
+../src/chu_io_rw.h:13:31: note: in definition of macro 'io_write'
+     (*((volatile uint32_t *)((base_addr) + (offset))) = (data))
+                               ^~~~~~~~~
+../src/gpio_core.cpp:48:25: error: 'DVSR_REG' was not declared in this scope
+     io_write(base_addr, DVSR_REG, dvsr);
+                         ^
+../src/chu_io_rw.h:13:45: note: in definition of macro 'io_write'
+     (*((volatile uint32_t *)((base_addr) + (offset))) = (data))
+                                             ^~~~~~
+../src/gpio_core.cpp: At global scope:
+../src/gpio_core.cpp:51:6: error: 'PwmCore' has not been declared
+ void PwmCore::set_duty(int duty, int channel) {
+      ^~~~~~~
+../src/gpio_core.cpp: In function 'void set_duty(int, int)':
+../src/gpio_core.cpp:54:16: error: 'MAX' was not declared in this scope
+     if (duty > MAX) {
+                ^~~
+In file included from ../src/chu_init.h:2:0,
+                 from ../src/gpio_core.h:1,
+                 from ../src/gpio_core.cpp:1:
+../src/gpio_core.cpp:59:14: error: 'base_addr' was not declared in this scope
+     io_write(base_addr, DUTY_REG_BASE + channel, d);
+              ^
+../src/chu_io_rw.h:13:31: note: in definition of macro 'io_write'
+     (*((volatile uint32_t *)((base_addr) + (offset))) = (data))
+                               ^~~~~~~~~
+../src/gpio_core.cpp:59:25: error: 'DUTY_REG_BASE' was not declared in this scope
+     io_write(base_addr, DUTY_REG_BASE + channel, d);
+                         ^
+../src/chu_io_rw.h:13:45: note: in definition of macro 'io_write'
+     (*((volatile uint32_t *)((base_addr) + (offset))) = (data))
+                                             ^~~~~~
+../src/gpio_core.cpp: At global scope:
+../src/gpio_core.cpp:62:6: error: 'PwmCore' has not been declared
+ void PwmCore::set_duty(double f, int channel) {
+      ^~~~~~~
+../src/gpio_core.cpp: In function 'void set_duty(double, int)':
+../src/gpio_core.cpp:65:23: error: 'MAX' was not declared in this scope
+     duty = (int) (f * MAX);
+                       ^~~
+make: *** [src/gpio_core.o] Error 1
+11:41:31 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/gpio_core.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_core.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/gpio_core.d" -MT"src/gpio_core.o" -o "src/gpio_core.o" "../src/gpio_core.cpp"
+In file included from ../src/gpio_core.cpp:1:0:
+../src/gpio_core.h:39:29: error: expected '}' before ';' token
+         DVSR_REG      = 0x00; // word address
+                             ^
+../src/gpio_core.h:40:9: error: 'DUTY_REG_BASE' does not name a type
+         DUTY_REG_BASE = 0x40; // word address
+         ^~~~~~~~~~~~~
+../src/gpio_core.h:43:29: error: expected '}' before ';' token
+         RESOLUTION_BITS = 10;
+                             ^
+../src/gpio_core.h:44:9: error: 'MAX' does not name a type
+         MAX             = 1 << RESOLUTION_BITS;
+         ^~~
+../src/gpio_core.h:45:5: error: expected declaration before '}' token
+     };
+     ^
+make: *** [src/gpio_core.o] Error 1
+11:41:59 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/gpio_core.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_core.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/gpio_core.d" -MT"src/gpio_core.o" -o "src/gpio_core.o" "../src/gpio_core.cpp"
+In file included from ../src/gpio_core.cpp:1:0:
+../src/gpio_core.h:40:9: error: expected '}' before 'DUTY_REG_BASE'
+         DUTY_REG_BASE = 0x40 // word address
+         ^~~~~~~~~~~~~
+../src/gpio_core.h:40:25: error: expected ';' at end of member declaration
+         DUTY_REG_BASE = 0x40 // word address
+                         ^~~~
+../src/gpio_core.h:40:25: error: invalid conversion from 'int' to 'PwmCore::<unnamed enum>' [-fpermissive]
+../src/gpio_core.h:44:9: error: expected '}' before 'MAX'
+         MAX             = 1 << RESOLUTION_BITS
+         ^~~
+../src/gpio_core.h:44:29: error: invalid conversion from 'int' to '<unnamed enum>' [-fpermissive]
+         MAX             = 1 << RESOLUTION_BITS
+                           ~~^~~~~~~~~~~~~~~~~~
+../src/gpio_core.h:45:5: error: expected ',' or ';' before '}' token
+     };
+     ^
+../src/gpio_core.h:45:5: error: expected declaration before '}' token
+../src/gpio_core.h:44:9: warning: 'MAX' defined but not used [-Wunused-variable]
+         MAX             = 1 << RESOLUTION_BITS
+         ^~~
+make: *** [src/gpio_core.o] Error 1
+11:42:41 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/gpio_core.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_core.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/gpio_core.d" -MT"src/gpio_core.o" -o "src/gpio_core.o" "../src/gpio_core.cpp"
+'Finished building: ../src/gpio_core.cpp'
+' '
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+../src/main_vanilla_test.cpp: In function 'void pwm_3color_led_check(PwmCore*)':
+../src/main_vanilla_test.cpp:202:22: error: 'broght' was not declared in this scope
+             bright = broght * P20;
+                      ^~~~~~
+../src/main_vanilla_test.cpp:202:22: note: suggested alternative: 'bright'
+             bright = broght * P20;
+                      ^~~~~~
+                      bright
+In file included from ../src/chu_init.h:2:0,
+                 from ../src/main_vanilla_test.cpp:3:
+../src/main_vanilla_test.cpp: At global scope:
+../src/main_vanilla_test.cpp:217:40: error: 'S6_PWM' was not declared in this scope
+ PwmCore pwm(get_slot_addr(BRIDGE_BASE, S6_PWM));
+                                        ^
+../src/chu_io_rw.h:16:32: note: in definition of macro 'get_slot_addr'
+     ((uint32_t)((mmio_base) + (slot) * 32 * 4))
+                                ^~~~
+../src/main_vanilla_test.cpp:217:40: note: suggested alternative: 'S3_SW'
+ PwmCore pwm(get_slot_addr(BRIDGE_BASE, S6_PWM));
+                                        ^
+../src/chu_io_rw.h:16:32: note: in definition of macro 'get_slot_addr'
+     ((uint32_t)((mmio_base) + (slot) * 32 * 4))
+                                ^~~~
+make: *** [src/main_vanilla_test.o] Error 1
+11:43:50 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/TimerCore.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/TimerCore.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/TimerCore.d" -MT"src/TimerCore.o" -o "src/TimerCore.o" "../src/TimerCore.cpp"
+'Finished building: ../src/TimerCore.cpp'
+' '
+'Building file: ../src/chu_init.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chu_init.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chu_init.d" -MT"src/chu_init.o" -o "src/chu_init.o" "../src/chu_init.cpp"
+'Finished building: ../src/chu_init.cpp'
+' '
+'Building file: ../src/gpio_core.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_core.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/gpio_core.d" -MT"src/gpio_core.o" -o "src/gpio_core.o" "../src/gpio_core.cpp"
+'Finished building: ../src/gpio_core.cpp'
+' '
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+../src/main_vanilla_test.cpp: In function 'void pwm_3color_led_check(PwmCore*)':
+../src/main_vanilla_test.cpp:202:22: error: 'broght' was not declared in this scope
+             bright = broght * P20;
+                      ^~~~~~
+../src/main_vanilla_test.cpp:202:22: note: suggested alternative: 'bright'
+             bright = broght * P20;
+                      ^~~~~~
+                      bright
+In file included from ../src/chu_init.h:2:0,
+                 from ../src/main_vanilla_test.cpp:3:
+../src/main_vanilla_test.cpp: At global scope:
+../src/main_vanilla_test.cpp:217:40: error: 'S6_PWM' was not declared in this scope
+ PwmCore pwm(get_slot_addr(BRIDGE_BASE, S6_PWM));
+                                        ^
+../src/chu_io_rw.h:16:32: note: in definition of macro 'get_slot_addr'
+     ((uint32_t)((mmio_base) + (slot) * 32 * 4))
+                                ^~~~
+../src/main_vanilla_test.cpp:217:40: note: suggested alternative: 'S3_PWM'
+ PwmCore pwm(get_slot_addr(BRIDGE_BASE, S6_PWM));
+                                        ^
+../src/chu_io_rw.h:16:32: note: in definition of macro 'get_slot_addr'
+     ((uint32_t)((mmio_base) + (slot) * 32 * 4))
+                                ^~~~
+make: *** [src/main_vanilla_test.o] Error 1
+11:44:36 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/chu_init.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chu_init.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chu_init.d" -MT"src/chu_init.o" -o "src/chu_init.o" "../src/chu_init.cpp"
+'Finished building: ../src/chu_init.cpp'
+' '
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+../src/main_vanilla_test.cpp: In function 'void pwm_3color_led_check(PwmCore*)':
+../src/main_vanilla_test.cpp:202:22: error: 'broght' was not declared in this scope
+             bright = broght * P20;
+                      ^~~~~~
+../src/main_vanilla_test.cpp:202:22: note: suggested alternative: 'bright'
+             bright = broght * P20;
+                      ^~~~~~
+                      bright
+In file included from ../src/chu_init.h:2:0,
+                 from ../src/main_vanilla_test.cpp:3:
+../src/main_vanilla_test.cpp: At global scope:
+../src/main_vanilla_test.cpp:217:40: error: 'S6_PWM' was not declared in this scope
+ PwmCore pwm(get_slot_addr(BRIDGE_BASE, S6_PWM));
+                                        ^
+../src/chu_io_rw.h:16:32: note: in definition of macro 'get_slot_addr'
+     ((uint32_t)((mmio_base) + (slot) * 32 * 4))
+                                ^~~~
+../src/main_vanilla_test.cpp:217:40: note: suggested alternative: 'S3_PWM'
+ PwmCore pwm(get_slot_addr(BRIDGE_BASE, S6_PWM));
+                                        ^
+../src/chu_io_rw.h:16:32: note: in definition of macro 'get_slot_addr'
+     ((uint32_t)((mmio_base) + (slot) * 32 * 4))
+                                ^~~~
+make: *** [src/main_vanilla_test.o] Error 1
+11:44:46 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/chu_init.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chu_init.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chu_init.d" -MT"src/chu_init.o" -o "src/chu_init.o" "../src/chu_init.cpp"
+'Finished building: ../src/chu_init.cpp'
+' '
+'Building file: ../src/gpio_core.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_core.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/gpio_core.d" -MT"src/gpio_core.o" -o "src/gpio_core.o" "../src/gpio_core.cpp"
+'Finished building: ../src/gpio_core.cpp'
+' '
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+../src/main_vanilla_test.cpp: In function 'void pwm_3color_led_check(PwmCore*)':
+../src/main_vanilla_test.cpp:202:22: error: 'broght' was not declared in this scope
+             bright = broght * P20;
+                      ^~~~~~
+../src/main_vanilla_test.cpp:202:22: note: suggested alternative: 'bright'
+             bright = broght * P20;
+                      ^~~~~~
+                      bright
+In file included from ../src/chu_init.h:2:0,
+                 from ../src/main_vanilla_test.cpp:3:
+../src/main_vanilla_test.cpp: At global scope:
+../src/main_vanilla_test.cpp:217:40: error: 'S6_PWM' was not declared in this scope
+ PwmCore pwm(get_slot_addr(BRIDGE_BASE, S6_PWM));
+                                        ^
+../src/chu_io_rw.h:16:32: note: in definition of macro 'get_slot_addr'
+     ((uint32_t)((mmio_base) + (slot) * 32 * 4))
+                                ^~~~
+../src/main_vanilla_test.cpp:217:40: note: suggested alternative: 'S3_PWM'
+ PwmCore pwm(get_slot_addr(BRIDGE_BASE, S6_PWM));
+                                        ^
+../src/chu_io_rw.h:16:32: note: in definition of macro 'get_slot_addr'
+     ((uint32_t)((mmio_base) + (slot) * 32 * 4))
+                                ^~~~
+make: *** [src/main_vanilla_test.o] Error 1
+11:44:54 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/TimerCore.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/TimerCore.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/TimerCore.d" -MT"src/TimerCore.o" -o "src/TimerCore.o" "../src/TimerCore.cpp"
+'Finished building: ../src/TimerCore.cpp'
+' '
+'Building file: ../src/chu_init.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chu_init.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chu_init.d" -MT"src/chu_init.o" -o "src/chu_init.o" "../src/chu_init.cpp"
+'Finished building: ../src/chu_init.cpp'
+' '
+'Building file: ../src/gpio_core.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_core.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/gpio_core.d" -MT"src/gpio_core.o" -o "src/gpio_core.o" "../src/gpio_core.cpp"
+'Finished building: ../src/gpio_core.cpp'
+' '
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+../src/main_vanilla_test.cpp: In function 'void pwm_3color_led_check(PwmCore*)':
+../src/main_vanilla_test.cpp:202:22: error: 'broght' was not declared in this scope
+             bright = broght * P20;
+                      ^~~~~~
+../src/main_vanilla_test.cpp:202:22: note: suggested alternative: 'bright'
+             bright = broght * P20;
+                      ^~~~~~
+                      bright
+In file included from ../src/chu_init.h:2:0,
+                 from ../src/main_vanilla_test.cpp:3:
+../src/main_vanilla_test.cpp: At global scope:
+../src/main_vanilla_test.cpp:217:40: error: 'S6_PWM' was not declared in this scope
+ PwmCore pwm(get_slot_addr(BRIDGE_BASE, S6_PWM));
+                                        ^
+../src/chu_io_rw.h:16:32: note: in definition of macro 'get_slot_addr'
+     ((uint32_t)((mmio_base) + (slot) * 32 * 4))
+                                ^~~~
+../src/main_vanilla_test.cpp:217:40: note: suggested alternative: 'S3_PWM'
+ PwmCore pwm(get_slot_addr(BRIDGE_BASE, S6_PWM));
+                                        ^
+../src/chu_io_rw.h:16:32: note: in definition of macro 'get_slot_addr'
+     ((uint32_t)((mmio_base) + (slot) * 32 * 4))
+                                ^~~~
+make: *** [src/main_vanilla_test.o] Error 1
+11:45:01 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/TimerCore.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/TimerCore.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/TimerCore.d" -MT"src/TimerCore.o" -o "src/TimerCore.o" "../src/TimerCore.cpp"
+'Finished building: ../src/TimerCore.cpp'
+' '
+'Building file: ../src/chu_init.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chu_init.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chu_init.d" -MT"src/chu_init.o" -o "src/chu_init.o" "../src/chu_init.cpp"
+'Finished building: ../src/chu_init.cpp'
+' '
+'Building file: ../src/gpio_core.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_core.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/gpio_core.d" -MT"src/gpio_core.o" -o "src/gpio_core.o" "../src/gpio_core.cpp"
+'Finished building: ../src/gpio_core.cpp'
+' '
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+../src/main_vanilla_test.cpp: In function 'void pwm_3color_led_check(PwmCore*)':
+../src/main_vanilla_test.cpp:202:22: error: 'broght' was not declared in this scope
+             bright = broght * P20;
+                      ^~~~~~
+../src/main_vanilla_test.cpp:202:22: note: suggested alternative: 'bright'
+             bright = broght * P20;
+                      ^~~~~~
+                      bright
+In file included from ../src/chu_init.h:2:0,
+                 from ../src/main_vanilla_test.cpp:3:
+../src/main_vanilla_test.cpp: At global scope:
+../src/main_vanilla_test.cpp:217:40: error: 'S6_PWM' was not declared in this scope
+ PwmCore pwm(get_slot_addr(BRIDGE_BASE, S6_PWM));
+                                        ^
+../src/chu_io_rw.h:16:32: note: in definition of macro 'get_slot_addr'
+     ((uint32_t)((mmio_base) + (slot) * 32 * 4))
+                                ^~~~
+../src/main_vanilla_test.cpp:217:40: note: suggested alternative: 'S3_PWM'
+ PwmCore pwm(get_slot_addr(BRIDGE_BASE, S6_PWM));
+                                        ^
+../src/chu_io_rw.h:16:32: note: in definition of macro 'get_slot_addr'
+     ((uint32_t)((mmio_base) + (slot) * 32 * 4))
+                                ^~~~
+make: *** [src/main_vanilla_test.o] Error 1
+11:45:07 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/gpio_core.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_core.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/gpio_core.d" -MT"src/gpio_core.o" -o "src/gpio_core.o" "../src/gpio_core.cpp"
+'Finished building: ../src/gpio_core.cpp'
+' '
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+../src/main_vanilla_test.cpp: In function 'void pwm_3color_led_check(PwmCore*)':
+../src/main_vanilla_test.cpp:202:22: error: 'broght' was not declared in this scope
+             bright = broght * P20;
+                      ^~~~~~
+../src/main_vanilla_test.cpp:202:22: note: suggested alternative: 'bright'
+             bright = broght * P20;
+                      ^~~~~~
+                      bright
+In file included from ../src/chu_init.h:2:0,
+                 from ../src/main_vanilla_test.cpp:3:
+../src/main_vanilla_test.cpp: At global scope:
+../src/main_vanilla_test.cpp:217:40: error: 'S6_PWM' was not declared in this scope
+ PwmCore pwm(get_slot_addr(BRIDGE_BASE, S6_PWM));
+                                        ^
+../src/chu_io_rw.h:16:32: note: in definition of macro 'get_slot_addr'
+     ((uint32_t)((mmio_base) + (slot) * 32 * 4))
+                                ^~~~
+../src/main_vanilla_test.cpp:217:40: note: suggested alternative: 'S3_PWM'
+ PwmCore pwm(get_slot_addr(BRIDGE_BASE, S6_PWM));
+                                        ^
+../src/chu_io_rw.h:16:32: note: in definition of macro 'get_slot_addr'
+     ((uint32_t)((mmio_base) + (slot) * 32 * 4))
+                                ^~~~
+make: *** [src/main_vanilla_test.o] Error 1
+11:45:15 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/gpio_core.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_core.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/gpio_core.d" -MT"src/gpio_core.o" -o "src/gpio_core.o" "../src/gpio_core.cpp"
+In file included from ../src/gpio_core.cpp:1:0:
+../src/gpio_core.h:39:29: error: expected '}' before ';' token
+         DVSR_REG      = 0x00; // word address
+                             ^
+../src/gpio_core.h:40:9: error: 'DUTY_REG_BASE' does not name a type
+         DUTY_REG_BASE = 0x40; // word address
+         ^~~~~~~~~~~~~
+../src/gpio_core.h:43:29: error: expected '}' before ';' token
+         RESOLUTION_BITS = 10;
+                             ^
+../src/gpio_core.h:44:9: error: 'MAX' does not name a type
+         MAX             = 1 << RESOLUTION_BITS;
+         ^~~
+../src/gpio_core.h:45:5: error: expected declaration before '}' token
+     };
+     ^
+make: *** [src/gpio_core.o] Error 1
+11:45:25 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/gpio_core.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_core.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/gpio_core.d" -MT"src/gpio_core.o" -o "src/gpio_core.o" "../src/gpio_core.cpp"
+In file included from ../src/gpio_core.cpp:1:0:
+../src/gpio_core.h:39:29: error: expected '}' before ';' token
+         DVSR_REG      = 0x00; // word address
+                             ^
+../src/gpio_core.h:40:9: error: 'DUTY_REG_BASE' does not name a type
+         DUTY_REG_BASE = 0x40; // word address
+         ^~~~~~~~~~~~~
+../src/gpio_core.h:43:29: error: expected '}' before ';' token
+         RESOLUTION_BITS = 10;
+                             ^
+../src/gpio_core.h:44:9: error: 'MAX' does not name a type
+         MAX             = 1 << RESOLUTION_BITS;
+         ^~~
+../src/gpio_core.h:45:5: error: expected declaration before '}' token
+     };
+     ^
+make: *** [src/gpio_core.o] Error 1
+11:45:43 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/TimerCore.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/TimerCore.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/TimerCore.d" -MT"src/TimerCore.o" -o "src/TimerCore.o" "../src/TimerCore.cpp"
+'Finished building: ../src/TimerCore.cpp'
+' '
+'Building file: ../src/chu_init.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chu_init.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chu_init.d" -MT"src/chu_init.o" -o "src/chu_init.o" "../src/chu_init.cpp"
+'Finished building: ../src/chu_init.cpp'
+' '
+'Building file: ../src/gpio_core.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_core.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/gpio_core.d" -MT"src/gpio_core.o" -o "src/gpio_core.o" "../src/gpio_core.cpp"
+In file included from ../src/gpio_core.cpp:1:0:
+../src/gpio_core.h:39:29: error: expected '}' before ';' token
+         DVSR_REG      = 0x00; // word address
+                             ^
+../src/gpio_core.h:40:9: error: 'DUTY_REG_BASE' does not name a type
+         DUTY_REG_BASE = 0x40; // word address
+         ^~~~~~~~~~~~~
+../src/gpio_core.h:43:29: error: expected '}' before ';' token
+         RESOLUTION_BITS = 10;
+                             ^
+../src/gpio_core.h:44:9: error: 'MAX' does not name a type
+         MAX             = 1 << RESOLUTION_BITS;
+         ^~~
+../src/gpio_core.h:45:5: error: expected declaration before '}' token
+     };
+     ^
+make: *** [src/gpio_core.o] Error 1
+11:45:50 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/TimerCore.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/TimerCore.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/TimerCore.d" -MT"src/TimerCore.o" -o "src/TimerCore.o" "../src/TimerCore.cpp"
+'Finished building: ../src/TimerCore.cpp'
+' '
+'Building file: ../src/gpio_core.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_core.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/gpio_core.d" -MT"src/gpio_core.o" -o "src/gpio_core.o" "../src/gpio_core.cpp"
+In file included from ../src/gpio_core.cpp:1:0:
+../src/gpio_core.h:39:29: error: expected '}' before ';' token
+         DVSR_REG      = 0x00; // word address
+                             ^
+../src/gpio_core.h:40:9: error: 'DUTY_REG_BASE' does not name a type
+         DUTY_REG_BASE = 0x40; // word address
+         ^~~~~~~~~~~~~
+../src/gpio_core.h:43:29: error: expected '}' before ';' token
+         RESOLUTION_BITS = 10;
+                             ^
+../src/gpio_core.h:44:9: error: 'MAX' does not name a type
+         MAX             = 1 << RESOLUTION_BITS;
+         ^~~
+../src/gpio_core.h:45:5: error: expected declaration before '}' token
+     };
+     ^
+make: *** [src/gpio_core.o] Error 1
+11:45:56 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/gpio_core.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_core.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/gpio_core.d" -MT"src/gpio_core.o" -o "src/gpio_core.o" "../src/gpio_core.cpp"
+In file included from ../src/gpio_core.cpp:1:0:
+../src/gpio_core.h:39:29: error: expected '}' before ';' token
+         DVSR_REG      = 0x00; // word address
+                             ^
+../src/gpio_core.h:40:9: error: 'DUTY_REG_BASE' does not name a type
+         DUTY_REG_BASE = 0x40; // word address
+         ^~~~~~~~~~~~~
+../src/gpio_core.h:43:29: error: expected '}' before ';' token
+         RESOLUTION_BITS = 10;
+                             ^
+../src/gpio_core.h:44:9: error: 'MAX' does not name a type
+         MAX             = 1 << RESOLUTION_BITS;
+         ^~~
+../src/gpio_core.h:45:5: error: expected declaration before '}' token
+     };
+     ^
+make: *** [src/gpio_core.o] Error 1
+11:46:05 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/chu_init.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chu_init.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chu_init.d" -MT"src/chu_init.o" -o "src/chu_init.o" "../src/chu_init.cpp"
+'Finished building: ../src/chu_init.cpp'
+' '
+'Building file: ../src/gpio_core.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_core.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/gpio_core.d" -MT"src/gpio_core.o" -o "src/gpio_core.o" "../src/gpio_core.cpp"
+In file included from ../src/gpio_core.cpp:1:0:
+../src/gpio_core.h:39:29: error: expected '}' before ';' token
+         DVSR_REG      = 0x00; // word address
+                             ^
+../src/gpio_core.h:40:9: error: 'DUTY_REG_BASE' does not name a type
+         DUTY_REG_BASE = 0x40; // word address
+         ^~~~~~~~~~~~~
+../src/gpio_core.h:43:29: error: expected '}' before ';' token
+         RESOLUTION_BITS = 10;
+                             ^
+../src/gpio_core.h:44:9: error: 'MAX' does not name a type
+         MAX             = 1 << RESOLUTION_BITS;
+         ^~~
+../src/gpio_core.h:45:5: error: expected declaration before '}' token
+     };
+     ^
+make: *** [src/gpio_core.o] Error 1
+11:46:16 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/gpio_core.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_core.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/gpio_core.d" -MT"src/gpio_core.o" -o "src/gpio_core.o" "../src/gpio_core.cpp"
+'Finished building: ../src/gpio_core.cpp'
+' '
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+../src/main_vanilla_test.cpp: In function 'void pwm_3color_led_check(PwmCore*)':
+../src/main_vanilla_test.cpp:202:22: error: 'broght' was not declared in this scope
+             bright = broght * P20;
+                      ^~~~~~
+../src/main_vanilla_test.cpp:202:22: note: suggested alternative: 'bright'
+             bright = broght * P20;
+                      ^~~~~~
+                      bright
+In file included from ../src/chu_init.h:2:0,
+                 from ../src/main_vanilla_test.cpp:3:
+../src/main_vanilla_test.cpp: At global scope:
+../src/main_vanilla_test.cpp:217:40: error: 'S6_PWM' was not declared in this scope
+ PwmCore pwm(get_slot_addr(BRIDGE_BASE, S6_PWM));
+                                        ^
+../src/chu_io_rw.h:16:32: note: in definition of macro 'get_slot_addr'
+     ((uint32_t)((mmio_base) + (slot) * 32 * 4))
+                                ^~~~
+../src/main_vanilla_test.cpp:217:40: note: suggested alternative: 'S3_PWM'
+ PwmCore pwm(get_slot_addr(BRIDGE_BASE, S6_PWM));
+                                        ^
+../src/chu_io_rw.h:16:32: note: in definition of macro 'get_slot_addr'
+     ((uint32_t)((mmio_base) + (slot) * 32 * 4))
+                                ^~~~
+make: *** [src/main_vanilla_test.o] Error 1
+11:47:09 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/TimerCore.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/TimerCore.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/TimerCore.d" -MT"src/TimerCore.o" -o "src/TimerCore.o" "../src/TimerCore.cpp"
+'Finished building: ../src/TimerCore.cpp'
+' '
+'Building file: ../src/chu_init.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chu_init.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/chu_init.d" -MT"src/chu_init.o" -o "src/chu_init.o" "../src/chu_init.cpp"
+'Finished building: ../src/chu_init.cpp'
+' '
+'Building file: ../src/gpio_core.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_core.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/gpio_core.d" -MT"src/gpio_core.o" -o "src/gpio_core.o" "../src/gpio_core.cpp"
+'Finished building: ../src/gpio_core.cpp'
+' '
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+../src/main_vanilla_test.cpp: In function 'void pwm_3color_led_check(PwmCore*)':
+../src/main_vanilla_test.cpp:202:22: error: 'broght' was not declared in this scope
+             bright = broght * P20;
+                      ^~~~~~
+../src/main_vanilla_test.cpp:202:22: note: suggested alternative: 'bright'
+             bright = broght * P20;
+                      ^~~~~~
+                      bright
+make: *** [src/main_vanilla_test.o] Error 1
+11:47:26 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+../src/main_vanilla_test.cpp: In function 'void pwm_3color_led_check(PwmCore*)':
+../src/main_vanilla_test.cpp:202:22: error: 'broght' was not declared in this scope
+             bright = broght * P20;
+                      ^~~~~~
+../src/main_vanilla_test.cpp:202:22: note: suggested alternative: 'bright'
+             bright = broght * P20;
+                      ^~~~~~
+                      bright
+make: *** [src/main_vanilla_test.o] Error 1
+11:47:35 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+../src/main_vanilla_test.cpp: In function 'void pwm_3color_led_check(PwmCore*)':
+../src/main_vanilla_test.cpp:202:22: error: 'broght' was not declared in this scope
+             bright = broght * P20;
+                      ^~~~~~
+../src/main_vanilla_test.cpp:202:22: note: suggested alternative: 'bright'
+             bright = broght * P20;
+                      ^~~~~~
+                      bright
+make: *** [src/main_vanilla_test.o] Error 1
+11:47:38 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+../src/main_vanilla_test.cpp: In function 'void pwm_3color_led_check(PwmCore*)':
+../src/main_vanilla_test.cpp:202:22: error: 'broght' was not declared in this scope
+             bright = broght * P20;
+                      ^~~~~~
+../src/main_vanilla_test.cpp:202:22: note: suggested alternative: 'bright'
+             bright = broght * P20;
+                      ^~~~~~
+                      bright
+../src/main_vanilla_test.cpp: In function 'int main()':
+../src/main_vanilla_test.cpp:230:36: error: too many arguments to function 'void collision_led(GpoCore*, GpiCore*)'
+          collision_led(&led, &sw, 6);
+                                    ^
+../src/main_vanilla_test.cpp:111:6: note: declared here
+ void collision_led(GpoCore *led_p, GpiCore *sw_p) {
+      ^~~~~~~~~~~~~
+make: *** [src/main_vanilla_test.o] Error 1
+11:47:48 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+../src/main_vanilla_test.cpp: In function 'int main()':
+../src/main_vanilla_test.cpp:230:36: error: too many arguments to function 'void collision_led(GpoCore*, GpiCore*)'
+          collision_led(&led, &sw, 6);
+                                    ^
+../src/main_vanilla_test.cpp:111:6: note: declared here
+ void collision_led(GpoCore *led_p, GpiCore *sw_p) {
+      ^~~~~~~~~~~~~
+make: *** [src/main_vanilla_test.o] Error 1
+11:48:18 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+'Finished building: ../src/main_vanilla_test.cpp'
+' '
+'Building file: ../src/uart_core.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/uart_core.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/uart_core.d" -MT"src/uart_core.o" -o "src/uart_core.o" "../src/uart_core.cpp"
+'Finished building: ../src/uart_core.cpp'
+' '
+'Building target: mmio_ss_test.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mmio_ss_test.elf"  ./src/TimerCore.o ./src/chu_init.o ./src/gpio_core.o ./src/main_vanilla_test.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: mmio_ss_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mmio_ss_test.elf  |tee "mmio_ss_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12336	    282	   3166	  15784	   3da8	mmio_ss_test.elf
+'Finished building: mmio_ss_test.elf.size'
+' '
+11:48:20 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+'Finished building: ../src/main_vanilla_test.cpp'
+' '
+'Building target: mmio_ss_test.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mmio_ss_test.elf"  ./src/TimerCore.o ./src/chu_init.o ./src/gpio_core.o ./src/main_vanilla_test.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: mmio_ss_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mmio_ss_test.elf  |tee "mmio_ss_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12752	    282	   3174	  16208	   3f50	mmio_ss_test.elf
+'Finished building: mmio_ss_test.elf.size'
+' '
+11:48:34 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+'Finished building: ../src/main_vanilla_test.cpp'
+' '
+'Building target: mmio_ss_test.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mmio_ss_test.elf"  ./src/TimerCore.o ./src/chu_init.o ./src/gpio_core.o ./src/main_vanilla_test.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: mmio_ss_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mmio_ss_test.elf  |tee "mmio_ss_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   9968	    279	   3161	  13408	   3460	mmio_ss_test.elf
+'Finished building: mmio_ss_test.elf.size'
+' '
+11:50:14 **** Incremental Build of configuration Debug for project mmio_ss_test ****
+make all 
+make: Nothing to be done for `all'.
+11:50:36 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+'Finished building: ../src/main_vanilla_test.cpp'
+' '
+'Building target: mmio_ss_test.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mmio_ss_test.elf"  ./src/TimerCore.o ./src/chu_init.o ./src/gpio_core.o ./src/main_vanilla_test.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: mmio_ss_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mmio_ss_test.elf  |tee "mmio_ss_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   9968	    279	   3161	  13408	   3460	mmio_ss_test.elf
+'Finished building: mmio_ss_test.elf.size'
+' '
+11:50:57 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+'Finished building: ../src/main_vanilla_test.cpp'
+' '
+'Building target: mmio_ss_test.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mmio_ss_test.elf"  ./src/TimerCore.o ./src/chu_init.o ./src/gpio_core.o ./src/main_vanilla_test.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: mmio_ss_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mmio_ss_test.elf  |tee "mmio_ss_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  17312	    279	   3161	  20752	   5110	mmio_ss_test.elf
+'Finished building: mmio_ss_test.elf.size'
+' '
+11:51:08 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+'Finished building: ../src/main_vanilla_test.cpp'
+' '
+'Building target: mmio_ss_test.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mmio_ss_test.elf"  ./src/TimerCore.o ./src/chu_init.o ./src/gpio_core.o ./src/main_vanilla_test.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: mmio_ss_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mmio_ss_test.elf  |tee "mmio_ss_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16152	    276	   3140	  19568	   4c70	mmio_ss_test.elf
+'Finished building: mmio_ss_test.elf.size'
+' '
+11:51:12 **** Incremental Build of configuration Debug for project mmio_ss_test ****
+make all 
+make: Nothing to be done for `all'.
+11:55:30 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/gpio_core.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_core.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/gpio_core.d" -MT"src/gpio_core.o" -o "src/gpio_core.o" "../src/gpio_core.cpp"
+'Finished building: ../src/gpio_core.cpp'
+' '
+'Building target: mmio_ss_test.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mmio_ss_test.elf"  ./src/TimerCore.o ./src/chu_init.o ./src/gpio_core.o ./src/main_vanilla_test.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: mmio_ss_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mmio_ss_test.elf  |tee "mmio_ss_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16160	    276	   3140	  19576	   4c78	mmio_ss_test.elf
+'Finished building: mmio_ss_test.elf.size'
+' '
+11:55:49 **** Incremental Build of configuration Debug for project mmio_ss_test ****
+make all 
+make: Nothing to be done for `all'.
+11:57:11 **** Auto Build of configuration Debug for project mmio_ss_test ****
+make all 
+'Building file: ../src/gpio_core.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_core.o" -I../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/gpio_core.d" -MT"src/gpio_core.o" -o "src/gpio_core.o" "../src/gpio_core.cpp"
+'Finished building: ../src/gpio_core.cpp'
+' '
+'Building target: mmio_ss_test.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../mcs_cpu_bsp/u_cpu_unit_cpu_i_microblaze_mcs_0_microblaze_I/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mmio_ss_test.elf"  ./src/TimerCore.o ./src/chu_init.o ./src/gpio_core.o ./src/main_vanilla_test.o ./src/uart_core.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: mmio_ss_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mmio_ss_test.elf  |tee "mmio_ss_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16160	    276	   3140	  19576	   4c78	mmio_ss_test.elf
+'Finished building: mmio_ss_test.elf.size'
+' '
